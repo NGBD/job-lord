@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <AboutUs />
           <ContactInfo />
-          {/* <Social /> */}
+          <Social />
         </div>
       </div>
       <div className="w-full flex justify-center pt-4">
@@ -62,7 +62,7 @@ function AboutUs() {
 
 function ContactInfo() {
   return (
-    <div className="flex flex-col gap-10 px-5">
+    <div className="flex flex-col gap-10 px-5 text-[15px]">
       <div className="font-bold h-[110px] flex items-end">Liên Hệ</div>
       <div className="flex flex-col gap-5">
         <div className="flex items-center gap-2">
@@ -108,42 +108,42 @@ function ContactInfo() {
   );
 }
 
-// function Social() {
-//   return (
-//     <div className="flex flex-col gap-10 px-5">
-//       <div className="font-bold h-[110px] flex items-end">Fanpage Facebook</div>
-//       <div>
-//         <iframe
-//           src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhtfulfillmentlogistics.vn&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-//           width="340"
-//           height="130"
-//           style={{ border: "none", overflow: "hidden" }}
-//           allowFullScreen={true}
-//           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-//         ></iframe>
-//       </div>
-//       <div className="font-bold flex items-end">Fanpage Tiktok</div>
-//       <div className="w-[340px]">
-//         <blockquote
-//           className="tiktok-embed"
-//           cite="https://www.tiktok.com/@ht.van.chuyen"
-//           data-unique-id="ht.van.chuyen"
-//           data-embed-type="creator"
-//           style={{ maxWidth: "500px", minWidth: "288px" }}
-//         >
-//           {" "}
-//           <section>
-//             {" "}
-//             <a
-//               target="_blank"
-//               href="https://www.tiktok.com/@ht.van.chuyen?refer=creator_embed"
-//             >
-//               @ht.van.chuyen
-//             </a>{" "}
-//           </section>{" "}
-//         </blockquote>{" "}
-//         <script async src="https://www.tiktok.com/embed.js"></script>
-//       </div>
-//     </div>
-//   );
-// }
+function Social() {
+  return (
+    <div className="flex flex-col gap-10 px-5">
+      <div className="font-bold h-[110px] flex items-end">Fanpage Facebook</div>
+      <div>
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhtfulfillmentlogistics.vn&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          width="340"
+          height="130"
+          style={{ border: "none", overflow: "hidden" }}
+          allowFullScreen={true}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
+      </div>
+      <div className="font-bold flex items-end">Fanpage Tiktok</div>
+      <div className="w-[340px]">
+        <blockquote
+          className="tiktok-embed"
+          cite="https://www.tiktok.com/@ht.van.chuyen"
+          data-unique-id="ht.van.chuyen"
+          data-embed-type="creator"
+          style={{ maxWidth: "500px", minWidth: "288px" }}
+        >
+          {" "}
+          <section>
+            {" "}
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@ht.van.chuyen?refer=creator_embed"
+            >
+              @ht.van.chuyen
+            </a>{" "}
+          </section>{" "}
+        </blockquote>{" "}
+        <script async src="https://www.tiktok.com/embed.js"></script>
+      </div>
+    </div>
+  );
+}
