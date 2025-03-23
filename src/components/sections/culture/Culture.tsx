@@ -4,7 +4,7 @@ import Image from "next/image";
 function Culture() {
   return (
     <>
-      <div className="max-w-[1320px] px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
+      <div className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
         <div className="text-[30px] uppercase font-bold">TẦM NHÌN</div>
         <div className="text-[17px] text-center">
           FG tiên phong kiến tạo hệ sinh thái logistics thông minh, kết nối tinh
@@ -24,7 +24,7 @@ function Culture() {
           height={690}
         />
       </div>
-      <div className="max-w-[1320px] px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
+      <div className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
         <div className="text-[30px] uppercase font-bold">SỨ MỆNH</div>
         <div className="text-[17px] text-center">
           IFG không vận hành hành đơn hàng, IFG vận hành chuỗi giá trị giúp kinh
@@ -39,7 +39,7 @@ function Culture() {
           className="object-cover aspect-[1320/690] rounded-[60px]"
         />
       </div>
-      <div className="max-w-[1320px] mx-auto pt-20 flex justify-center p-[40px]">
+      <div className="max-w-[1320px] mx-auto pt-10 md:pt-20 flex justify-center p-5 md:p-[40px]">
         <Image
           src="/images/committed-image.webp"
           alt="Warehouse Background"

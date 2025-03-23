@@ -8,7 +8,7 @@ function Service() {
   return (
     <>
       <HeroService />
-      <div className="max-w-[1320px] mx-auto flex flex-col gap-10 justify-center p-[40px]">
+      <div className="max-w-[1320px] mx-auto flex flex-col gap-10 justify-center p-5 md:p-[40px]">
         <TitleService title="1. Nhận hàng từ Đối Tác" />
         <SecondContentItem
           image="/images/service-1.webp"
@@ -215,7 +215,7 @@ export default Service;
 function TitleService({ title }: { title: string }) {
   return (
     <div className="flex items-center justify-center w-full mb-5">
-      <div className="text-[20px] whitespace-nowrap font-bold text-[#0D9251] h-[52px] flex items-center px-3 shadow-[0_0_10px_rgba(0,0,0,0.4)]">
+      <div className="text-[20px] text-center md:text-left md:whitespace-nowrap font-bold text-[#0D9251] min-h-[52px] flex items-center px-3 shadow-[0_0_10px_rgba(0,0,0,0.4)]">
         {title}
       </div>
     </div>
@@ -235,8 +235,6 @@ function SecondContentItem({
   content9,
   content10,
   reverseDirection = false,
-  width = 600,
-  height = 400,
   bigTitle,
   bigTitleSecond,
   mainTitle,
@@ -264,8 +262,6 @@ function SecondContentItem({
   content9?: string;
   content10?: string;
   reverseDirection?: boolean;
-  width?: number;
-  height?: number;
   bigTitle?: string;
   bigTitleSecond?: string;
   mainTitle?: string;
@@ -331,9 +327,9 @@ function SecondContentItem({
         <Image
           src={image}
           alt="Warehouse Background"
-          className={`object-cover max-w-[${width}px] max-h-[${height}px] rounded-3xl`}
-          width={width}
-          height={height}
+          className={`object-cover rounded-3xl md:max-w-[600px] w-full`}
+          width={600}
+          height={400}
           priority
           quality={100}
         />

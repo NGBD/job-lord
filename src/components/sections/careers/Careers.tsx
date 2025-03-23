@@ -107,7 +107,7 @@ export default Careers;
 function TitleService({ title }: { title: string }) {
   return (
     <div className="flex items-center justify-start w-full mb-5">
-      <div className="text-[20px] whitespace-nowrap font-bold text-[#0D9251] h-[52px] flex items-center px-3 shadow-[0_0_10px_rgba(0,0,0,0.4)]">
+      <div className="text-[20px] text-center md:text-left md:whitespace-nowrap font-bold text-[#0D9251] min-h-[52px] flex items-center px-3 shadow-[0_0_10px_rgba(0,0,0,0.4)]">
         {title}
       </div>
     </div>
