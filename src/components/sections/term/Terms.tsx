@@ -7,16 +7,22 @@ function Terms() {
     <>
       <TermHero />
       <div className="max-w-[1320px] w-full mx-auto flex flex-col gap-5 justify-start items-start p-5">
-        <TitleService title="Điều 1: Đối tượng của hợp đồng" />
+        <TitleService title="Điều 1: Phạm vi dịch vụ và Quy trình vận hành" />
         <ul>
-          <li> Phạm vi dịch vụ: Bên A cung cấp dịch vụ logistics bao gồm:</li>
-          <li>Xác nhận đơn hàng qua điện thoại.</li>
-          <li> Lưu kho, bảo quản, đóng gói và bàn giao hàng hoá.</li>
-          <li>Giao hàng đến đơn vị vận chuyển.</li>
+          <li>Dịch vụ Logistics toàn diện:</li>
           <li>
-            Phương thức và tiến trình giao nhận: Được xác định theo từng đơn
-            hàng và thời điểm cụ thể, kèm theo Phụ lục hợp đồng hoặc thoả thuận
-            giữa hai bên.
+            Lưu trữ, bảo quản, đóng gói và bàn giao hàng hóa theo tiêu chuẩn an
+            toàn cao nhất.
+          </li>
+          <li>Giao hàng đến đối tác vận chuyển uy tín.</li>
+          <li>Quy trình giao nhận minh bạch:</li>
+          <li>
+            Phương thức và tiến trình giao nhận được xác định rõ ràng cho từng
+            đơn hàng, đảm bảo tính chính xác và hiệu quả.
+          </li>
+          <li>
+            Mọi thỏa thuận được ghi nhận chi tiết trong Phụ lục Hợp đồng hoặc
+            văn bản thỏa thuận giữa hai bên.
           </li>
         </ul>
       </div>
@@ -76,7 +82,7 @@ function Terms() {
         <ul>
           <li>
             Nếu vi phạm, bên bị vi phạm thông báo yêu cầu khắc phục. Nếu không
-            khắc phục trong thời hạn yêu cầu, bên vi phạm phải chịu phạt 3% giá
+            khắc phục trong thời hạn yêu cầu, bên vi phạm phải chịu phạt 8% giá
             trị phần nghĩa vụ hợp đồng bị vi phạm và bồi thường thiệt hại trong
             vòng 30 ngày.
           </li>
@@ -171,14 +177,17 @@ function Terms() {
       <div className="max-w-[1320px] w-full mx-auto flex flex-col gap-5 justify-start items-start p-5">
         <TitleService title="Điều 14: Điều khoản chung" />
         <ul>
-          <li>Hợp đồng điều chỉnh theo pháp luật Việt Nam.</li>
+          <li>Luật áp dụng:</li>
+          <li>Hợp đồng được điều chỉnh bởi pháp luật Việt Nam.</li>
+          <li>Sửa đổi hợp đồng:</li>
           <li>
-            Mọi sửa đổi, bổ sung phải được hai bên ký kết và người có thẩm quyền
-            của hai bên.
+            Mọi sửa đổi, bổ sung hợp đồng phải được lập thành văn bản và ký bởi
+            người có thẩm quyền của hai bên.
           </li>
+          <li>Chuyển giao quyền và nghĩa vụ:</li>
           <li>
-            Không chuyển giao quyền, nghĩa vụ cho bên thứ ba mà không có sự đồng
-            ý trước bằng văn bản của bên còn lại.
+            Không được chuyển giao quyền và nghĩa vụ cho bên thứ ba mà không có
+            sự đồng ý bằng văn bản của bên còn lại.
           </li>
         </ul>
       </div>

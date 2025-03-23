@@ -22,7 +22,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full flex justify-center pt-4">
-        Copyright © Công ty cổ phần Aver Fulfillment Global
+        Copyright © Infinity Fulfillment - Chia Sẻ Kinh Nghiệm Bán Hàng Online
+        Từ A ĐẾN Z
       </div>
     </footer>
   );
@@ -38,23 +39,23 @@ function AboutUs() {
           <div className="flex items-center w-[150px] h-[150px] overflow-hidden">
             <Image
               src="/images/main-logo.svg"
-              alt="AFG Fulfillment Global"
+              alt="IFG Fulfillment Global"
               width={200}
               height={200}
               className="object-cover w-[200px] h-[200px]"
             />
           </div>
           <div className="font-bold">
-            Công ty cổ phần Aver Fulfillment Global
+            Công ty cổ phần Infinity Fulfillment Global
           </div>
         </div>
       </div>
       <div className="text-sm">
-        Công ty cổ phần Aver Fulfillment Global là công ty cung cấp dịch vụ vận
-        chuyển và vận hành hàng hoá xuyên quốc gia. Với hơn 8 năm kinh nghiệm
-        vận hành TMĐT đa nền tảng, chúng tôi tự hào là đơn vị FFM uy tín, chuyên
-        nghiệp và hiệu quả nhất. Hiện nay chúng tôi đã hiện diện tại 5 quốc gia
-        : Philippines, Malaysia, Indonesia, Singapore, Thái Lan.
+        Công ty cổ phần Infinity Fulfillment Global là công ty cung cấp dịch vụ
+        vận chuyển và vận hành hàng hoá xuyên quốc gia. Với hơn 8 năm kinh
+        nghiệm vận hành TMĐT đa nền tảng, chúng tôi tự hào là đơn vị FFM uy tín,
+        chuyên nghiệp và hiệu quả nhất. Hiện nay chúng tôi đã hiện diện tại 5
+        quốc gia : Philippines, Malaysia, Indonesia, Singapore, Thái Lan.
       </div>
     </div>
   );
@@ -68,40 +69,36 @@ function ContactInfo() {
         <div className="flex items-center gap-2">
           <p className="font-bold whitespace-nowrap">Email :</p>{" "}
           <p className="underline text-blue-500">
-            afg.fulfillment.services@gmail.com
+            ifg.contact.services@gmail.com
           </p>
         </div>
         <div className="flex items-center gap-2">
           <p className="font-bold whitespace-nowrap">Hotline :</p>{" "}
-          <p>a 038 565 8585</p>
+          <p>0977.587.736</p>
         </div>
-        <div className="flex flex-col md:flex-row gap-2">
+        <div className="flex flex-col gap-2">
+          <p className="font-bold whitespace-nowrap">Địa chỉ trụ sở chính:</p>{" "}
+          <p>
+            Liền kề B9 -23, Khu B Gleximco, Đường Lê Trọng Tấn, Phường Dương
+            Nội, Hà Đông, Hà Nội.
+          </p>
+        </div>
+        <div className="flex flex-col gap-2">
           <p className="font-bold whitespace-nowrap">Địa chỉ:</p>
-          <ul className="">
-            <li>
-              Lot 17 Blk 1 Phase 8-G Ather St., Greenwoods Executive Village,
-              San Juan, Taytay, Rizal, Region IV-A (CALABARZON), 1920
-            </li>
+          <ul className="list-disc ml-10">
+            <li>KĐT Star City, Thaylin, Yangon, Myanmar.</li>
             <li>
               4 Soi Wachiratham 36, Bangchak, Khet Phra Khanong, Bangkok,
               Thailand
             </li>
-            <li>
-              JL PORIS INDAH,RUKO B9 No 11,Cipondoh Indah,Cipondoh, Tangerang.(
-              sebelum MUTIARA BANGSA 1 SCHOOL) 15148 Fanpage Tiktok Jalan
-              Permas, Bandar Baru Permas Jaya 81750 Masai, Johor No.4,4A, 6 & 6A
-              Jalan Permas 1/2, Bandar Baru Permas jaya 81750 Masai ,Johor.,
-              Masai
-            </li>
-            <li>
-              - Tầng 25 toà nhà Viwaseen, 48 P. Tố Hữu, Trung Văn, Nam Từ Liêm,
-              Hà Nội, Việt Nam, Hanoi,{" "}
-            </li>
+            <li>Udomsuk Soi 50 Yak 7, BangNa, BangNa, Bangkok 10260</li>
+            <li>Eden Value, Lahore, Pakistan</li>
+            <li>Johor Bahru, Malaysia</li>
           </ul>
         </div>
         <div className="flex items-center gap-2">
           <p className="font-bold whitespace-nowrap">Website :</p>{" "}
-          <p className="whitespace-nowrap">https://averfulfillment.com/</p>
+          <p className="whitespace-nowrap">https://infiniyfulfillment.com/</p>
         </div>
       </div>
     </div>

@@ -8,35 +8,40 @@ function Event() {
         Những cột mốc đáng nhớ
       </div>
       <div className="text-center text-[18px] pb-5 w-[80%] mx-auto">
-        AFG cung cấp giải pháp cho việc hoàn tất đơn hàng trên một hệ thống duy
+        IFG cung cấp giải pháp cho việc hoàn tất đơn hàng trên một hệ thống duy
         nhất giúp cho việc quản lý đơn hàng, tồn kho, hoàn trả theo thời gian
         thực.
       </div>
       <div className="flex flex-col md:grid grid-cols-3 gap-10 items-start">
         <Item
           image="/images/about-us-one.webp"
-          title=" 2022: Ban giám đốc và công sự sang  Philippines tìm hiểu thị trường và đăng ký kinh doanh "
+          title=" 2021 Ban giám đốc và công sự sang Brazil mở kho vận hành cho khách hàng tại Sao Paolo Brazil sau đó hỗ trợ khách hàng mở cửa hàng tại sàn TMĐT Mercado libre."
         />
         <Item
           image="/images/about-us-two.webp"
-          title="08/ 2023: Quyết định mở rộng
-thị trường đầu tiên tại Philippines"
+          title="02/ 2022: Quyết định mở rộng thị trường sang Myanmar."
         />
         <Item
           image="/images/about-us-two.webp"
-          title="01/11/2023: Quyết định mở rộng
-thị trường Malaysia"
+          title="01/6/2023: Quyết định mở rộng thị trường Malaysia"
         />
       </div>
       <div className="flex flex-col md:grid grid-cols-2 justify-center gap-10 items-start w-[80%] mx-auto">
         <Item
           image="/images/about-us-one.webp"
-          title="02/2024: Quyết định mở rộng
-thị trường Singapore"
+          title="09/2024: Quyết định mở rộng thị trường Indonesia"
         />
         <Item
           image="/images/about-us-two.webp"
-          title="05/2024:  Quyết định mở rộng dịch vụ vận chuyển ĐNA-XNE Logistic "
+          title="03/2024: Quyết định mở rộng mảng vận chuyển ký liên kết với công ty vận chuyển hàng hóa Qicheng Yuntong, Thâm Quyến."
+        />
+        <Item
+          image="/images/about-us-one.webp"
+          title="10/2024: Quyết định mở rộng thị trường tại Thái Lan và Campuchia."
+        />
+        <Item
+          image="/images/about-us-two.webp"
+          title="01/12/2024: Quyết định mở rộng thị trường tại Pakistan và Bangladesh"
         />
       </div>
     </section>

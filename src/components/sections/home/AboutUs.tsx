@@ -12,18 +12,18 @@ function AboutUs() {
             Về chúng tôi
           </div>
           <div className="text-[22px] font-bold uppercase">
-            Công ty cổ phần Aver Fulfillment Global
+            Công ty cổ phần Infinity Fulfillment Global
           </div>
           <div className="text-[17px] max-w-[500px]">
-            Công ty Cổ phần Aver Fulfillment Global là một công ty chuyên cung
-            cấp dịch vụ vận chuyển và quản lý hàng hóa xuyên quốc gia. Với hơn 8
-            năm kinh nghiệm trong việc vận hành thương mại điện tử (TMĐT) đa nền
-            tảng, Aver Fulfillment Global tự hào là đơn vị cung cấp dịch vụ
-            Fulfillment (FFM) uy tín, chuyên nghiệp, và hiệu quả nhất trong
-            ngành. Hiện nay, công ty đã mở rộng sự hiện diện của mình tại bốn
-            quốc gia trong khu vực Đông Nam Á, bao gồm Philippines, Malaysia,
-            Singapore, và Thái Lan, đáp ứng nhu cầu của thị trường và khách hàng
-            ở nhiều quốc gia khác nhau.
+            Công ty Cổ phần Infinity Fulfillment Global là một công ty chuyên
+            cung cấp dịch vụ vận chuyển và quản lý hàng hóa xuyên quốc gia. Với
+            hơn 8 năm kinh nghiệm trong việc vận hành thương mại điện tử (TMĐT)
+            đa nền tảng, Infinity Fulfillment Global tự hào là đơn vị cung cấp
+            dịch vụ Fulfillment (FFM) uy tín, chuyên nghiệp, và hiệu quả nhất
+            trong ngành. Hiện nay, công ty đã mở rộng sự hiện diện của mình tại
+            bốn quốc gia trong khu vực Đông Nam Á, bao gồm Philippines,
+            Malaysia, Singapore, và Thái Lan, đáp ứng nhu cầu của thị trường và
+            khách hàng ở nhiều quốc gia khác nhau.
             <Link href="/about-us">
               <button className="flex justify-center items-center bg-[#0D9251] text-white px-4 h-[24px] mt-3">
                 Xem thêm

@@ -61,7 +61,7 @@ function FeedBack() {
       role: "FOUNDER",
       company: "BABY",
       testimonial:
-        "Chúng tôi đã sử dụng dịch vụ hoàn tất đơn hàng của AFG trong nhiều năm tại Philippines và thực sự hoạt động kinh doanh của chúng tôi đã có nhiều bước ngoặt to lớn. Dịch vụ theo quy trình rõ ràng, hiệu quả và luôn đảm bảo sản phẩm đến tay người tiêu dùng nhanh nhất. Chúng tôi đánh giá cao về điều này!",
+        "Chúng tôi đã sử dụng dịch vụ hoàn tất đơn hàng của IFG trong nhiều năm tại Thái Lan, Malaysia và Philippines và thực sự hoạt động kinh doanh của chúng tôi đã có nhiều bước ngoặt to lớn. Dịch vụ theo quy trình rõ ràng, hiệu quả và luôn đảm bảo sản phẩm đến tay người tiêu dùng nhanh nhất. Chúng tôi đánh giá cao về điều này!",
       image: "/images/mr-phu.webp",
       rating: 5,
     },
@@ -70,7 +70,7 @@ function FeedBack() {
       role: "CEO & FOUNDER",
       company: "PH4M VIỆT NAM",
       testimonial:
-        "Vì từ kinh doanh online nên mình đã phân vân khi quyết định mở rộng kinh doanh sang các thị trường nước ngoài. Nhưng khi tìm hiểu về lựa chọn dịch vụ tại AFG thì thực sự ngoài mong đợi. Đội ngũ chuyên môn cao, phản hồi nhanh chóng đã giúp mình giảm bớt gánh nặng về logistics để tập trung hơn vào phát triển kinh doanh.",
+        "Vì tự kinh doanh online nên mình đã phân vân khi quyết định mở rộng kinh doanh sang các thị trường nước ngoài. Nhưng khi tìm hiểu và lựa chọn dịch vụ tại IFG thì thực sự ngoài mong đợi. Đội ngũ chuyên môn cao, phản hồi nhanh chóng đã giúp mình giảm bớt gánh nặng về logistics để tập trung hơn vào phát triển kinh doanh.",
       image: "/images/ms-hoa.webp",
       rating: 5,
     },
@@ -79,7 +79,7 @@ function FeedBack() {
       role: "CEO",
       company: "XDP",
       testimonial:
-        "Tôi đã sử dụng dịch vụ telesales của nhiều đơn vị khác nhau trước đây, nhưng đến với AFG thì thật sự rất bất ngờ. Đội ngũ quốc tế chuyên môn cao và luôn cập nhật thông tin tức thì cho tôi về tiến độ. Trí lực đơn của chúng tôi đã cải thiện nhờ sự tận tình của đội ngũ.",
+        "Tôi đã sử dụng dịch vụ telesales của nhiều đơn vị khác nhau trước đây, nhưng đến với AFG thì thật sự nổi bật. Đội ngũ quốc tế chuyên môn cao và luôn cập nhật thông tin tức thì cho tôi về tiến độ. Tỉ lệ chốt đơn của chúng tôi đã cải thiện nhờ sự tận tình của đội ngũ.”",
       image: "/images/mr-dinh.webp",
       rating: 5,
     },
@@ -88,7 +88,7 @@ function FeedBack() {
       role: "CEO & FOUNDER",
       company: "M.O.S",
       testimonial:
-        "Chúng tôi đã tăng 10% hạn ngạch khi tiếp cận đến thị trường nước ngoài nhờ dữ liệu bán hàng đã được xử lý gần thế cuộc gọi và phân tích từ AFG.",
+        "Chúng tôi đã tăng trưởng 30% doanh thu và tối ưu lợi nhuận khi tiếp cận đến thị trường nước ngoài nhờ dữ liệu bán hàng đã được xử lý gắn thẻ cuộc gọi và phân tích từ IFG.",
       image: "/images/mr-vu.webp",
       rating: 5,
     },
@@ -97,7 +97,7 @@ function FeedBack() {
       role: "FOUNDER",
       company: "Lysilk",
       testimonial:
-        "Thay vì dành quá nhiều thời gian để xử lý data và có thể tập trung vào việc kinh doanh, AFG đã đưa ra giải pháp giúp chúng tôi hoàn thành đơn hàng từ lúc telesales đến kho bãi, vận chuyển và người tiêu dùng.",
+        "Thay vì dành quá nhiều thời gian để xử lý data và có thể tập trung vào việc kinh doanh, IFG đã đưa ra giải pháp giúp chúng tôi hoàn thành đơn hàng từ lúc telesales đến kho bãi, vận chuyển và người tiêu dùng.",
       image: "/images/mr-huy.webp",
       rating: 5,
     },
@@ -158,24 +158,24 @@ function FeedBack() {
           <div className="w-[300px] bg-gray-400 h-[1px] my-5 block:hidden"></div>
 
           <div className="md:text-[26px] font-bold text-center uppercase w-[80%] mx-auto">
-            MỘT SỐ PHẢN HỒI SIÊU GIÁ TRỊ TỪ NHỮNG KHÁCH HÀNG THÂN YÊU CỦA AFG
+            MỘT SỐ PHẢN HỒI SIÊU GIÁ TRỊ TỪ NHỮNG KHÁCH HÀNG THÂN YÊU CỦA IFG
           </div>
           <ul className="flex flex-col gap-5 px-5 md:px-10">
             <li>
-              - Trở thành đối tác với AFG Fulfillment mang lại cho chúng tôi
+              - Trở thành đối tác với IFG Fulfillment mang lại cho chúng tôi
               nhiều lợi ích hơn chúng tôi tưởng tượng. Chúng tôi rất hài lòng
-              với dịch vụ của AFG Fulfillment.
+              với dịch vụ của IFG Fulfillment.
             </li>
             <li>
               - Để thành công ở thị trường Đông Nam Á, không thể thiếu người bạn
-              đồng thành AFG Fulfillment. Chúng tôi rất tin tương với dịch vụ
-              của AFG Fulfillment
+              đồng thành IFG Fulfillment. Chúng tôi rất tin tương với dịch vụ
+              của IFG Fulfillment
             </li>
             <li>
               - Trước đây tôi gặp rất nhiều khó khăn trong việc tìm nguồn hàng
               chất lượng và vận chuyển hàng hóa sang ĐNA. Nhưng từ khi sử dụng
-              dịch vụ của AFG Fulfillment, chúng tôi đã không còn gặp phải những
-              khó khăn đó nữa. Chúng tôi rất hài lòng với dịch vụ của AFG
+              dịch vụ của IFG Fulfillment, chúng tôi đã không còn gặp phải những
+              khó khăn đó nữa. Chúng tôi rất hài lòng với dịch vụ của IFG
               Fulfillment.
             </li>
           </ul>

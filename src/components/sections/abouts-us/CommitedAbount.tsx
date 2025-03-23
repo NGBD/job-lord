@@ -12,16 +12,19 @@ function CommitedAbount() {
         </ul>
         <div className="text-[17px] max-w-[500px] flex flex-col gap-5">
           <div>
-            Uy tín: AFG luôn đề cao chữ tín và đặt vấn đề Bảo mật dữ liệu - lợi
-            ích của đối tác lên hàng đầu
+            Bảo mật: IFG luôn luôn đặt niềm tin của khách hàng và uy tín của
+            công ty lên đầu. Cam kết bảo mật thông tin của khách hàng và đối
+            tác.
           </div>
           <div>
-            An toàn: AFG luôn tuân thủ theo hợp đồng, đảm bảo tuyệt đối thông
-            tin và sự an toàn của khách hàng
+            Tin cậy: AFG luôn tuân thủ theo hợp đồng, đảm bảo tuyệt đối về vấn
+            đề rủi ro cho khách hàng trong toàn bộ quá trình vận hành.
           </div>
           <div>
-            Chuyên nghiệp: Luôn làm việc bài bản theo quy trình, đưa ra giải
-            pháp tối ưu và hiệu quả nhất cho khách hàng
+            Sáng tạo: Luôn làm việc bài bản theo quy trình vận hành đã được tối
+            ưu bằng đội ngũ nhân sự bản địa am hiểu văn hóa lối sống kết hợp
+            cùng tư duy định hướng chiến lược của đội nghũ lãnh đạo tại Việt
+            Nam.
           </div>
         </div>
       </div>

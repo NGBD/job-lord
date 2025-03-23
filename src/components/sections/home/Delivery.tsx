@@ -5,7 +5,7 @@ function Delivery() {
     <section>
       <div className="mx-auto pt-5 flex flex-col items-center justify-center">
         <div className="md:text-[40px] text-[23px] text-center font-bold uppercase w-[80%]">
-          Các đơn vị vận chuyển AFG Fulfillment đang hợp tác
+          Các đơn vị vận chuyển IFG Fulfillment đang hợp tác
         </div>
         <div className="flex flex-col md:flex-row flex-wrap gap-5 items-center justify-center md:gap-10 mt-10">
           <Image

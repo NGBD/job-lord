@@ -16,9 +16,9 @@ function FullFillment() {
             phí khá lớn
           </div>
           <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white">
-            - Việc lựa chọn nhà cung cấp dịch vụ Aver fulfillment sẽ là một giải
-            pháp tối ưu cho ngân sách của các doanh nghiệp lớn, nhỏ và các nhà
-            bán lẻ TMĐT
+            - Việc lựa chọn nhà cung cấp dịch vụ Infinity Fulfillment sẽ là một
+            giải pháp tối ưu cho ngân sách của các doanh nghiệp lớn, nhỏ và các
+            nhà bán lẻ TMĐT
           </div>{" "}
           <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white">
             - Chúng tôi sẽ thay bạn hoàn thành các đơn hàng và bạn chỉ cần

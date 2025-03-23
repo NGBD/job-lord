@@ -6,7 +6,7 @@ function DeliveryAbout() {
     <section>
       <div className="mx-auto pt-5 flex flex-col items-center justify-center">
         <div className="text-[24px] md:text-[40px] text-center font-bold uppercase md:w-[60%]">
-          Đối tác đồng hành cùng AFG fulfillment
+          Đối tác đồng hành cùng IFG fulfillment
         </div>
         <div className="flex flex-col md:flex-row px-10 md:px-0 gap-10 mt-10 justify-center items-center">
           <Image

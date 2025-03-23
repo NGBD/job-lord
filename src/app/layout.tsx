@@ -7,17 +7,17 @@ import Footer from "@/components/layout/Footer";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aver Fulfillment Global - Giải Pháp Fulfillment Toàn Cầu",
+  title: "Infinity Fulfillment Global - Giải Pháp Fulfillment Toàn Cầu",
   description:
-    "Aver Fulfillment Global cung cấp dịch vụ fulfillment, kho vận và logistics xuyên biên giới tại Đông Nam Á. Với hơn 8 năm kinh nghiệm trong TMĐT.",
+    "Infinity Fulfillment Global cung cấp dịch vụ fulfillment, kho vận và logistics xuyên biên giới tại Đông Nam Á. Với hơn 8 năm kinh nghiệm trong TMĐT.",
   keywords:
-    "fulfillment, logistics, kho vận, thương mại điện tử, đông nam á, afg global",
+    "fulfillment, logistics, kho vận, thương mại điện tử, đông nam á, ifg global",
   openGraph: {
-    title: "Aver Fulfillment Global - Giải Pháp Fulfillment Toàn Cầu",
+    title: "Infinity Fulfillment Global - Giải Pháp Fulfillment Toàn Cầu",
     description:
-      "Aver Fulfillment Global cung cấp dịch vụ fulfillment, kho vận và logistics xuyên biên giới tại Đông Nam Á.",
-    url: "https://averfulfillment.com",
-    siteName: "Aver Fulfillment Global",
+      "Infinity Fulfillment Global cung cấp dịch vụ fulfillment, kho vận và logistics xuyên biên giới tại Đông Nam Á.",
+    url: "https://infiniyfulfillment.com",
+    siteName: "Infinity Fulfillment Global",
     locale: "vi_VN",
     type: "website",
   },

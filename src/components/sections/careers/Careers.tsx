@@ -6,74 +6,87 @@ function Careers() {
     <>
       <HeroCareer />
       <div className="max-w-[1320px] w-full mx-auto flex flex-col gap-5 justify-start items-start px-5 py-10">
-        <TitleService title="1.Nhân viên kinh doanh" />
+        <TitleService title="CƠ HỘI NGHỀ NGHIỆP: CHUYÊN VIÊN TRUYỀN THÔNG & XÂY DỰNG THƯƠNG HIỆU" />
         <div className="w-full flex flex-col gap-3">
+          <p>
+            Bạn là một chuyên gia truyền thông sáng tạo, đam mê xây dựng thương
+            hiệu và chinh phục thị trường? Hãy gia nhập đội ngũ năng động của
+            chúng tôi!
+          </p>
           <h3 className="font-bold">Mô tả công việc:</h3>
           <ul className="list-disc pl-5 flex flex-col gap-2">
             <li>
-              Lên kế hoạch và thực hiện các chiến dịch truyền thông và xây dựng
-              hình ảnh cho công ty.
+              Xây dựng và triển khai các chiến lược truyền thông đối phá, nâng
+              tầm hình ảnh thương hiệu trên thị trường.
             </li>
             <li>
-              Tổ chức, chịu trách nhiệm về hiệu quả truyền thông, xây dựng
-              thương hiệu của Công ty.
+              Quản lý và tối ưu hóa hiệu quả các kênh truyền thông nội bộ và bên
+              ngoài (website, fanpage,...).
             </li>
             <li>
-              Quản lý và chịu trách nhiệm về nội dung các kênh truyền thông bên
-              ngoài và nội bộ: website, fanpage,...
+              Sản xuất và phân phối nội dung sáng tạo trên các tin phẩm truyền
+              thông nội bộ.
             </li>
             <li>
-              Chịu trách nhiệm sản xuất, triển khai nội dung và phân phối các
-              sản phẩm truyền thông nội bộ trên các kênh nội bộ
+              Tổ chức và giám sát các sự kiện truyền thông, đảm bảo tiến độ và
+              hiệu quả tối ưu.
             </li>
             <li>
-              Theo dõi và báo cáo tiến độ, kết quả của các sự kiện đang diễn ra
+              Phân tích và báo cáo kết quả các hoạt động truyền thông, đề xuất
+              cải tiến liên tục.
             </li>
-            <li>Các công việc khác theo sự phân công của BLĐ.</li>
+            <li>Thực hiện các nhiệm vụ khác theo yêu cầu của Ban Lãnh đạo.</li>
           </ul>
 
           <h3 className="font-bold mt-3">Yêu cầu:</h3>
           <ul className="list-disc pl-5 flex flex-col gap-2">
-            <li>Có laptop</li>
+            <li>Sở hữu laptop cá nhân.</li>
             <li>
-              Nam/nữ, Tốt nghiệp Đại học các chuyên ngành về: Truyền thông,
-              Marketing, Báo chí, v.v...
+              Tốt nghiệp Đại học chuyên ngành Truyền thông, Marketing, Báo chí
+              hoặc các ngành liên quan.
             </li>
-            <li>Có tối thiểu 2 năm kinh nghiệm ở vị trí tương đương.</li>
-            <li>Kỹ năng sáng tạo và đổi mới</li>
-            <li>Kỹ năng tổ chức và làm việc độc lập.</li>
-            <li>Kỹ năng về đàm phán, thuyết phục và trình bày tốt.</li>
+            <li>Tối thiểu 2 năm kinh nghiệm ở vị trí tương đương.</li>
+            <li>Khả năng sáng tạo, đổi mới và tư duy chiến lược.</li>
             <li>
-              Năng động, sáng tạo, có định hướng chi tiết trong công việc.
+              Kỹ năng tổ chức, làm việc độc lập và làm việc nhóm hiệu quả.
             </li>
-            <li>Có khả năng phân tích, khả năng tự học, có gu thẩm mỹ.</li>
-            <li>Trung thực, trách nhiệm, chuyên nghiệp.</li>
+            <li>Kỹ năng đàm phán, thuyết phục và trình bày xuất sắc.</li>
+            <li>
+              Năng động, sáng tạo, ý tưởng và có định hướng chi tiết trong công
+              việc.
+            </li>
+            <li>Khả năng phân tích, tự học và có gu thẩm mỹ tốt.</li>
+            <li>Trung thực, trách nhiệm và chuyên nghiệp.</li>
           </ul>
 
-          <h3 className="font-bold mt-3">Quyền lợi được hưởng</h3>
+          <h3 className="font-bold mt-3">Quyền lợi:</h3>
           <ul className="list-disc pl-5 flex flex-col gap-2">
             <li>
-              Lương cứng 20-30tr ( có thể cao hơn tùy năng lực) + phụ cấp +
-              Thưởng
+              Mức lương cạnh tranh: 10 triệu - 35 triệu VNĐ (hoặc cao hơn tùy
+              theo năng lực) + phụ cấp + thưởng hiệu suất.
             </li>
             <li>
-              Được công ty chi trả 100% chi phí các khóa đào tạo tham gia bên
-              ngoài.
+              Cơ hội phát triển bản thân: Được công ty tài trợ 100% chi phí các
+              khóa đào tạo chuyên sâu.
             </li>
-            <li>Thưởng Tết hấp dẫn, thưởng các ngày Lễ.</li>
-            <li>Lương thâm niên, Đóng BHXH</li>
-            <li>Môi trường năng động, nhiệt tình, thân thiện.</li>
-            <li>Du lịch 1 lần/ năm.</li>
             <li>
-              Hưởng các chính sách đãi ngộ đặc biệt tại công ty (Mua hàng nội
-              bộ, Đào tạo về kỹ năng mềm, Thư viện miễn phí, Du lịch, ...)
+              Chế độ đãi ngộ hấp dẫn: Thưởng Tết, thưởng Lễ, lương thâm niên,
+              BHXH.
+            </li>
+            <li>
+              Môi trường làm việc chuyên nghiệp: Năng động, nhiệt tình, thân
+              thiện.
+            </li>
+            <li>
+              Chế độ phúc lợi toàn diện: Du lịch 2 lần/năm, mua hàng nội bộ, đào
+              tạo kỹ năng mềm, thư viện miễn phí,...
             </li>
           </ul>
 
           <div className="mt-3">
             <p>
-              <strong>Thời gian làm việc:</strong> Từ thứ 2 đến sáng thứ 7 (
-              8h00 đến 17h00), nghỉ trưa 1h00p)
+              <strong>Thời gian làm việc:</strong> Thứ 2 - sáng thứ 7 (8h00 -
+              18h00, nghỉ trưa 1h30p)
             </p>
             <p>
               <strong>Địa chỉ làm việc:</strong>

@@ -19,11 +19,11 @@ const Header = () => {
             <div className="hidden md:flex items-center gap-5">
               <div className="flex items-center gap-2">
                 <FacebookIcon />
-                <p>https://www.facebook.com/afgfulfillment</p>
+                <p>https://www.facebook.com/ofgfulfillment</p>
               </div>
               <div className="flex items-center gap-2">
                 <GmailIcon />
-                <p>afgfulfillment@gmail.com</p>
+                <p>ifg.contact.services@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-5">
@@ -47,7 +47,7 @@ const Header = () => {
             <Link href="/" className="flex items-center overflow-hidden">
               <Image
                 src="/images/main-logo.svg"
-                alt="AFG Fulfillment Global"
+                alt="IFG Fulfillment Global"
                 width={150}
                 height={150}
                 className="object-contain w-[100px] h-[100px]"
@@ -59,7 +59,7 @@ const Header = () => {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-gray-700 hover:text-blue-600 transition-colors text-sm"
+                  className="text-gray-700 hover:text-blue-600 transition-colors text-sm whitespace-nowrap"
                 >
                   {item.title}
                 </Link>
