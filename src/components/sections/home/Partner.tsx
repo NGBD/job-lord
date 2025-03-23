@@ -108,7 +108,7 @@ function Partner() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">ĐỐI TÁC</h2>
         <div className="flex flex-col items-center justify-center px-2 py-5 shadow-[0_0_20px_rgba(0,0,0,0.2)]">
-          <div className="flex">
+          <div className="flex flex-col md:flex-row gap-5 items-center justify-center">
             <PartnerCard
               name={partners[0].name}
               role={partners[0].role}
@@ -134,8 +134,8 @@ function Partner() {
               rating={partners[2].rating}
             />
           </div>
-          <div className="w-[700px] bg-gray-400 h-[1px] my-5"></div>
-          <div className="flex">
+          <div className="w-[700px] bg-gray-400 h-[1px] my-5 md:block hidden"></div>
+          <div className="flex flex-col md:flex-row gap-5 items-center justify-center">
             <PartnerCard
               name={partners[3].name}
               role={partners[3].role}

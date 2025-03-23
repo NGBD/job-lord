@@ -104,13 +104,13 @@ function FeedBack() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16">
       <div className="max-w-[1120px] mx-auto px-4">
         <h2 className="text-[40px] font-bold text-center uppercase">
           Feeback của khách hàng
         </h2>
         <div className="flex flex-col items-center justify-center px-2 py-5 shadow-[0_0_20px_rgba(0,0,0,0.2)]">
-          <div className="flex">
+          <div className="flex flex-col md:flex-row">
             <PartnerCard
               name={partners[0].name}
               role={partners[0].role}
@@ -136,8 +136,8 @@ function FeedBack() {
               rating={partners[2].rating}
             />
           </div>
-          <div className="w-[700px] bg-gray-400 h-[1px] my-5"></div>
-          <div className="flex">
+          <div className="w-[700px] bg-gray-400 h-[1px] my-5 md:block hidden"></div>
+          <div className="flex flex-col md:flex-row">
             <PartnerCard
               name={partners[3].name}
               role={partners[3].role}
@@ -155,10 +155,12 @@ function FeedBack() {
               rating={partners[4].rating}
             />
           </div>
-          <div className="text-[26px] font-bold text-center uppercase w-[80%] mx-auto">
+          <div className="w-[300px] bg-gray-400 h-[1px] my-5 block:hidden"></div>
+
+          <div className="md:text-[26px] font-bold text-center uppercase w-[80%] mx-auto">
             MỘT SỐ PHẢN HỒI SIÊU GIÁ TRỊ TỪ NHỮNG KHÁCH HÀNG THÂN YÊU CỦA AFG
           </div>
-          <ul className="flex flex-col gap-5 px-10">
+          <ul className="flex flex-col gap-5 px-5 md:px-10">
             <li>
               - Trở thành đối tác với AFG Fulfillment mang lại cho chúng tôi
               nhiều lợi ích hơn chúng tôi tưởng tượng. Chúng tôi rất hài lòng

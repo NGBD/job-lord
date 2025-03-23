@@ -6,7 +6,7 @@ import FullFillment from "./FullFillment";
 function AboutUs() {
   return (
     <section>
-      <div className="max-w-[1320px] px-10 mx-auto flex flex-col md:grid md:grid-cols-2 items-center justify-center gap-[80px]">
+      <div className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col md:grid md:grid-cols-2 items-center justify-center gap-[80px]">
         <div className="flex flex-col gap-5">
           <div className="text-2xl font-bold italic text-[#0D9251]">
             Về chúng tôi
@@ -34,14 +34,14 @@ function AboutUs() {
         <Image
           src="/images/about-us-image.webp"
           alt="Warehouse Background"
-          className="object-cover max-w-[550px] max-h-[400px]"
+          className="object-cover aspect-[600/400]"
           width={600}
           height={400}
           priority
           quality={100}
         />
       </div>
-      <div className="max-w-[1320px] mx-auto pt-20 flex justify-center px-[100px]">
+      <div className="max-w-[1320px] mx-auto md:pt-20 pt-10  flex justify-center md:px-[100px] px-5">
         <video
           src="https://content.pancake.vn/web-media/2b/fc/c4/10/3921bd83443ed4b8eacf0434e616e69b614b7a751d61d7163375c96f.mp4"
           controls
@@ -49,7 +49,7 @@ function AboutUs() {
         />
       </div>
       <FullFillment />
-      <div className="max-w-[1320px] mx-auto pt-20 flex justify-center px-[100px]">
+      <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex justify-center md:px-[100px] px-5">
         <Image
           src="/images/committed-image.webp"
           alt="Warehouse Background"
@@ -58,12 +58,12 @@ function AboutUs() {
           height={580}
         />
       </div>
-      <div className="max-w-[1320px] mx-auto pt-20 flex flex-col justify-center">
-        <div className="flex flex-row gap-5 w-full items-center justify-center max-w-[1320px]">
+      <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex flex-col justify-center">
+        <div className="flex flex-col md:flex-row gap-5 w-full items-center justify-center max-w-[1320px]">
           <Image
             src="/images/su-menh-image.webp"
             alt="su-menh-image"
-            className="object-cover w-[400px] aspect-[400/200]"
+            className="object-cover md:w-[400px] w-[300px] aspect-[400/200]"
             width={400}
             height={200}
             priority
@@ -72,7 +72,7 @@ function AboutUs() {
           <Image
             src="/images/su-menh-image.webp"
             alt="su-menh-image"
-            className="object-cover w-[400px] aspect-[400/200]"
+            className="object-cover md:w-[400px] w-[300px] aspect-[400/200]"
             width={400}
             height={200}
             priority

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Avantages() {
   return (
-    <section className="max-w-[1320px] px-10 mx-auto flex flex-col md:grid grid-cols-3 gap-10 items-start py-10 ">
+    <section className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col md:grid grid-cols-3 gap-10 items-start py-10 ">
       <Item
         image="/images/home-image-one.webp"
         title="Bán hàng xuyên biên giới với quy trình đơn giản"

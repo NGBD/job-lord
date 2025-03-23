@@ -54,7 +54,7 @@ const Header = () => {
               />
             </Link>
 
-            <nav className="hidden lg:flex space-x-20">
+            <nav className="hidden lg:flex justify-between items-center xl:w-[50%] gap-10">
               {menuItems.map((item) => (
                 <Link
                   key={item.href}

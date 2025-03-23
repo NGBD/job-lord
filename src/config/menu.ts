@@ -19,8 +19,4 @@ export const menuItems = [
     title: "TUYỂN DỤNG",
     href: "/careers",
   },
-  {
-    title: "TIN TỨC",
-    href: "/news",
-  },
 ];

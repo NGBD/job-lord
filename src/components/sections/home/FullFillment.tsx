@@ -3,12 +3,12 @@ import React from "react";
 function FullFillment() {
   return (
     <>
-      <div className="max-w-[1320px] mx-auto pt-20 flex flex-col justify-center px-[100px] items-center">
-        <div className="text-[40px] font-bold uppercase text-center">
+      <div className="max-w-[1320px] mx-auto pt-20 flex flex-col justify-center md:px-[100px] px-5 items-center">
+        <div className="text-[23px] md:text-[40px] font-bold uppercase text-center">
           Dịch vụ Fulfillment có kho hàng riêng tiết <br /> kiệm một khoản chi
           phí
         </div>
-        <div className="flex flex-col md:flex-row gap-10 justify-center items-start h-[330px] text-[17px] mt-5">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-10 justify-center items-start md:h-[330px] h-fit text-[17px] mt-5">
           <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white">
             - Chi phí kho bãi để quản lý từ kho bãi đến theo dõi hành trình đơn
             hàng , hệ thống thanh toán và bảo mật thông tin hách hàng, thuê nhân
@@ -40,7 +40,7 @@ function FullFillment() {
           Theo dõi, đo lường và tối ưu hóa hiệu suất kinh doanh của bạn
           <div className="triangle-mask max-h-[26px] max-w-[75px] absolute bottom-[-20px] left-1/2 -translate-x-1/2"></div>
         </div>
-        <div className="bg-[#EDEDED] w-full h-[280px] flex justify-center items-center md:gap-[100px] gap-10">
+        <div className="bg-[#EDEDED] w-full h-fit py-10 md:py-0 md:h-[280px] flex justify-center md:flex-row flex-col items-center md:gap-[100px] gap-10">
           <FulfillmentItem
             number={"8 000 000 +"}
             title="Đơn hàng hoàn thành"

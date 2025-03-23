@@ -3,10 +3,10 @@ import Image from "next/image";
 
 function CommitedAbount() {
   return (
-    <div className="max-w-[1320px] flex flex-col md:grid md:grid-cols-2 gap-5 px-10 mx-auto py-10">
+    <div className="max-w-[1320px] items-center flex flex-col md:grid md:grid-cols-2 gap-5 px-5 md:px-10 mx-auto py-10">
       <div className="flex flex-col gap-5">
         <ul className="list-disc ">
-          <li className="text-[26px] font-bold uppercase">
+          <li className="md:text-[26px] font-bold uppercase">
             Cam kết của chúng tôi
           </li>
         </ul>
@@ -25,15 +25,17 @@ function CommitedAbount() {
           </div>
         </div>
       </div>
-      <Image
-        src="/images/main-logo.svg"
-        alt="Warehouse Background"
-        className="object-cover max-w-[550px] max-h-[400px]"
-        width={600}
-        height={400}
-        priority
-        quality={100}
-      />
+      <div className="flex justify-center items-center w-full h-full bg-gray-200 rounded-4xl">
+        <Image
+          src="/images/main-logo.svg"
+          alt="Warehouse Background"
+          className="object-cover aspect-[650/350]"
+          width={650}
+          height={400}
+          priority
+          quality={100}
+        />
+      </div>
     </div>
   );
 }

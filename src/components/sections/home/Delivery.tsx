@@ -3,17 +3,17 @@ import Image from "next/image";
 function Delivery() {
   return (
     <section>
-      <div className=" mx-auto pt-5 flex flex-col items-center justify-center">
-        <div className="text-[40px] text-center font-bold uppercase w-[80%]">
+      <div className="mx-auto pt-5 flex flex-col items-center justify-center">
+        <div className="md:text-[40px] text-[23px] text-center font-bold uppercase w-[80%]">
           Các đơn vị vận chuyển AFG Fulfillment đang hợp tác
         </div>
-        <div className="flex flex-row gap-10 mt-10">
+        <div className="flex flex-col md:flex-row flex-wrap gap-5 items-center justify-center md:gap-10 mt-10">
           <Image
             src="/images/ninja.webp"
             alt="ninja"
             width={300}
             height={100}
-            className="w-[300px] h-[100px] aspect-[300/90] object-cover"
+            className="aspect-[300/90] object-cover"
             priority
             quality={100}
           />
@@ -23,7 +23,7 @@ function Delivery() {
             alt="flash"
             width={250}
             height={100}
-            className="w-[250px] h-[100px] aspect-[250/90] object-cover rounded-2xl"
+            className=" aspect-[250/90] object-cover rounded-2xl"
             priority
             quality={100}
           />
@@ -32,7 +32,7 @@ function Delivery() {
             alt="jnt"
             width={350}
             height={100}
-            className="w-[350px] h-[100px] aspect-[350/90] object-cover rounded-2xl"
+            className="aspect-[350/90] object-cover rounded-2xl"
             priority
             quality={100}
           />

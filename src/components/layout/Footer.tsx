@@ -14,7 +14,7 @@ const Footer = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className="max-w-[1320px] px-10 mx-auto">
+      <div className="max-w-[1320px] px-5 md:px-10 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <AboutUs />
           <ContactInfo />
@@ -62,9 +62,9 @@ function AboutUs() {
 
 function ContactInfo() {
   return (
-    <div className="flex flex-col gap-10 px-5 text-[15px]">
-      <div className="font-bold h-[110px] flex items-end">Liên Hệ</div>
-      <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-2 md:gap-10 px-5 text-[15px]">
+      <div className="font-bold md:h-[110px] flex items-end">Liên Hệ</div>
+      <div className="flex flex-col gap-2 md:gap-5">
         <div className="flex items-center gap-2">
           <p className="font-bold whitespace-nowrap">Email :</p>{" "}
           <p className="underline text-blue-500">
@@ -75,7 +75,7 @@ function ContactInfo() {
           <p className="font-bold whitespace-nowrap">Hotline :</p>{" "}
           <p>a 038 565 8585</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-col md:flex-row gap-2">
           <p className="font-bold whitespace-nowrap">Địa chỉ:</p>
           <ul className="">
             <li>
@@ -110,8 +110,10 @@ function ContactInfo() {
 
 function Social() {
   return (
-    <div className="flex flex-col gap-10 px-5">
-      <div className="font-bold h-[110px] flex items-end">Fanpage Facebook</div>
+    <div className="flex flex-col gap-2 md:gap-10 md:px-5">
+      <div className="font-bold md:h-[110px] flex items-end">
+        Fanpage Facebook
+      </div>
       <div>
         <iframe
           src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhtfulfillmentlogistics.vn&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"

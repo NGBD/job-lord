@@ -4,17 +4,17 @@ import Image from "next/image";
 function DeliveryAbout() {
   return (
     <section>
-      <div className=" mx-auto pt-5 flex flex-col items-center justify-center">
-        <div className="text-[40px] text-center font-bold uppercase w-[60%]">
+      <div className="mx-auto pt-5 flex flex-col items-center justify-center">
+        <div className="text-[24px] md:text-[40px] text-center font-bold uppercase md:w-[60%]">
           Đối tác đồng hành cùng AFG fulfillment
         </div>
-        <div className="flex flex-row gap-10 mt-10">
+        <div className="flex flex-col md:flex-row px-10 md:px-0 gap-10 mt-10 justify-center items-center">
           <Image
             src="/images/ninja.webp"
             alt="ninja"
             width={300}
             height={100}
-            className="w-[300px] h-[100px] aspect-[300/90] object-cover"
+            className="aspect-[300/90] object-cover"
             priority
             quality={100}
           />
@@ -24,7 +24,7 @@ function DeliveryAbout() {
             alt="flash"
             width={250}
             height={100}
-            className="w-[250px] h-[100px] aspect-[250/90] object-cover rounded-2xl"
+            className=" aspect-[250/90] object-cover rounded-2xl"
             priority
             quality={100}
           />
@@ -33,7 +33,7 @@ function DeliveryAbout() {
             alt="jnt"
             width={350}
             height={100}
-            className="w-[350px] h-[100px] aspect-[350/90] object-cover rounded-2xl"
+            className="aspect-[350/90] object-cover rounded-2xl"
             priority
             quality={100}
           />
@@ -42,7 +42,7 @@ function DeliveryAbout() {
             alt="royal"
             width={90}
             height={90}
-            className="w-[90px] h-[90px] aspect-[90/90] object-cover rounded-2xl"
+            className="aspect-[90/90] object-cover rounded-2xl"
             priority
             quality={100}
           />

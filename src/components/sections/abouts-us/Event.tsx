@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function Event() {
   return (
-    <section className="max-w-[1320px] flex flex-col gap-5 px-10 mx-auto py-10">
-      <div className="text-center w-full text-[30px] font-bold uppercase">
+    <section className="max-w-[1320px] flex flex-col gap-5 px-5 md:px-10 mx-auto py-10">
+      <div className="text-center w-full text-[20px] md:text-[30px] font-bold uppercase">
         Những cột mốc đáng nhớ
       </div>
       <div className="text-center text-[18px] pb-5 w-[80%] mx-auto">

@@ -4,28 +4,29 @@ import Event from "./Event";
 import CommitedAbount from "./CommitedAbount";
 import DeliveryAbout from "./DeliveryAbout";
 import FeedBack from "./FeedBack";
+import Image from "next/image";
+import Download from "@/components/ui/Download";
+
 function AboutUs() {
   return (
     <>
       <HeroAboutUs />
       <Event />
       <CommitedAbount />
+      <div className="max-w-[1320px] mx-auto flex justify-center px-5 md:px-[40px]">
+        <Image
+          src="/images/process.webp"
+          alt="Warehouse Background"
+          className="object-cover w-full max-w-[1240px] aspect-[1240/690]"
+          width={1240}
+          height={690}
+          priority
+          quality={100}
+        />
+      </div>
       <DeliveryAbout />
       <FeedBack />
-      <div className="w-full h-[200px] bg-[#086E3B] flex flex-col items-center justify-center">
-        <div className="flex flex-col w-[60%]">
-          <div className="text-[17px] text-white">Contact us</div>
-          <div className="text-[30px] text-white font-bold">
-            {" "}
-            Tìm kiếm giải pháp Fulfilllment toàn diện?{" "}
-          </div>
-          <div className="flex w-full justify-end pt-3">
-            <button className="h-[46px] bg-white text-[#086E3B] font-bold px-10">
-              TAI BANG GIA
-            </button>
-          </div>
-        </div>
-      </div>
+      <Download />
     </>
   );
 }
