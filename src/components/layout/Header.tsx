@@ -19,7 +19,7 @@ const Header = () => {
             <div className="hidden md:flex items-center gap-5">
               <div className="flex items-center gap-2">
                 <FacebookIcon />
-                <p>https://www.facebook.com/ofgfulfillment</p>
+                <p>https://www.facebook.com/ifgfulfillment</p>
               </div>
               <div className="flex items-center gap-2">
                 <GmailIcon />

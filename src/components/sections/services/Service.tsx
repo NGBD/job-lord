@@ -2,7 +2,6 @@ import React from "react";
 import HeroService from "./HeroService";
 import Image from "next/image";
 import SecondHeroService from "./SecondHeroService";
-import ThirdServiceHero from "./ThirdServiceHero";
 import Download from "@/components/ui/Download";
 function Service() {
   return (
@@ -56,7 +55,7 @@ function Service() {
       <SecondHeroService />
       <div className="max-w-[1320px] mx-auto flex flex-col gap-10 justify-center p-[40px]">
         <SecondContentItem
-          image="/images/service-6.webp"
+          image="/images/service-6.jpg"
           secondMainTitle="1.Xử lý Đơn Hàng"
           bigTitle="Nhận Đơn Hàng:"
           content1={
@@ -75,7 +74,7 @@ function Service() {
         />
         <SecondContentItem
           reverseDirection={true}
-          image="/images/service-8.webp"
+          image="/images/service-8-new.webp"
           mainTitle="2. Vận Chuyển Nội Địa và Quản Lý Dòng Tiền"
           bigTitle="Hợp Tác với Các Đơn Vị Vận Chuyển:"
           content1={
@@ -89,7 +88,7 @@ function Service() {
           }
         />
         <SecondContentItem
-          image="/images/service-9.webp"
+          image="/images/service-9.jpg"
           bigTitle="Thu Hộ COD:"
           content1={
             "Thu tiền mặt an toàn và bảo mật: Đảm bảo giao dịch tin cậy: Khi khách hàng lựa chọn phương thức thanh toán khi nhận hàng (COD), IFG phối hợp chặt chẽ với các đối tác vận chuyển uy tín để đảm bảo quy trình thu tiền mặt diễn ra an toàn và bảo mật. Nhân viên giao hàng được đào tạo chuyên nghiệp sẽ thực hiện giao dịch thu tiền mặt trực tiếp từ khách hàng tại thời điểm giao hàng. Chúng tôi áp dụng các biện pháp an ninh nghiêm ngặt để bảo vệ thông tin và tiền mặt trong suốt quá trình giao dịch, đảm bảo sự an tâm tuyệt đối cho cả khách hàng và đối tác. IFG cam kết mang đến dịch vụ thu tiền mặt tin cậy, an toàn và hiệu quả, đáp ứng mọi nhu cầu thanh toán của khách hàng."
@@ -102,7 +101,7 @@ function Service() {
           }
         />
       </div>
-      <ThirdServiceHero />
+      {/* <ThirdServiceHero /> */}
       <div className="max-w-[1320px] mx-auto flex flex-col gap-10 justify-center p-[40px]">
         <SecondContentItem
           bigTitle="Đối Tác Vận Chuyển Tin Cậy:"

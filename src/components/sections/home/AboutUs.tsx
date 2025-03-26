@@ -32,7 +32,7 @@ function AboutUs() {
           </div>
         </div>
         <Image
-          src="/images/about-us-image.webp"
+          src="/images/about-us.jpg"
           alt="Warehouse Background"
           className="object-cover aspect-[600/400]"
           width={600}
@@ -43,7 +43,7 @@ function AboutUs() {
       </div>
       <div className="max-w-[1320px] mx-auto md:pt-20 pt-10  flex justify-center md:px-[100px] px-5">
         <video
-          src="https://content.pancake.vn/web-media/2b/fc/c4/10/3921bd83443ed4b8eacf0434e616e69b614b7a751d61d7163375c96f.mp4"
+          src="https://drive.google.com/file/d/1XLB59OK2Nc0kT6IEDgKTHe09xZ3FWjf_/view?usp=sharing"
           controls
           className="object-cover w-full max-w-[1160px] aspect-[1160/580]"
         />

@@ -18,10 +18,13 @@ function Culture() {
           chất lượng dịch vụ, mang đến trải nghiệm vượt trội cho khách hàng.
         </div>
         <Image
-          src="/images/culture-1.webp"
+          src="/images/culture-1.jpg"
           alt="culture"
           width={1320}
           height={690}
+          className="object-cover aspect-[1320/690] rounded-[60px]"
+          priority
+          quality={100}
         />
       </div>
       <div className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
@@ -31,13 +34,13 @@ function Culture() {
           tế Việt Nam mở rộng phát triển ở Đông Nam Á một cách mạnh mẽ, bền vững
           và hiệu quả.
         </div>
-        <Image
+        {/* <Image
           src="/images/about-us-image.webp"
           alt="culture"
           width={1320}
           height={690}
           className="object-cover aspect-[1320/690] rounded-[60px]"
-        />
+        /> */}
       </div>
       <div className="max-w-[1320px] mx-auto pt-10 md:pt-20 flex justify-center p-5 md:p-[40px]">
         <Image
