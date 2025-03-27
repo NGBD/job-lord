@@ -7,8 +7,8 @@ import { menuItems } from "@/config/menu";
 import FacebookIcon from "../icons/FacebookIcon";
 import GmailIcon from "../icons/GmailIcon";
 import PhoneIcon from "../icons/PhoneIcon";
-import YoutubeIcon from "../icons/YoutubeIcon";
 import SearchIcon from "../icons/SearchIcon";
+import ZaloIcon from "../icons/ZaloIcon";
 
 const Header = () => {
   return (
@@ -17,24 +17,44 @@ const Header = () => {
         <div className="mx-auto px-4 h-full">
           <div className="flex md:justify-between justify-end items-center h-full text-white">
             <div className="hidden md:flex items-center gap-5">
-              <div className="flex items-center gap-2">
+              <Link
+                className="flex items-center gap-2"
+                href="https://www.facebook.com/share/1945z3YzkM/?mibextid=wwXIfr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FacebookIcon />
                 <p>https://www.facebook.com/ifgfulfillment</p>
-              </div>
-              <div className="flex items-center gap-2">
+              </Link>
+              <Link
+                href="mailto:ifg.contact.services@gmail.com"
+                className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+              >
                 <GmailIcon />
                 <p>ifg.contact.services@gmail.com</p>
-              </div>
+              </Link>
             </div>
             <div className="flex items-center gap-5">
-              <Link className="" href={"/"}>
+              <Link className="" href="tel:+84977587736">
                 <PhoneIcon />
               </Link>
-              <Link className="" href={"/"}>
+              <Link
+                className=""
+                href={
+                  "https://www.facebook.com/share/1945z3YzkM/?mibextid=wwXIfr"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FacebookIcon />
               </Link>
-              <Link className="" href={"/"}>
-                <YoutubeIcon />
+              <Link
+                className=""
+                href="https://zalo.me/84977587736"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ZaloIcon width={24} height={24} />
               </Link>
             </div>
           </div>

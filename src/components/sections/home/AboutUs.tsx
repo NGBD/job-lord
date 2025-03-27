@@ -43,7 +43,7 @@ function AboutUs() {
       </div>
       <div className="max-w-[1320px] mx-auto md:pt-20 pt-10  flex justify-center md:px-[100px] px-5">
         <video
-          src="https://drive.google.com/file/d/1XLB59OK2Nc0kT6IEDgKTHe09xZ3FWjf_/view?usp=sharing"
+          src="https://youtube.com/shorts/H5JTiGPd_Os"
           controls
           className="object-cover w-full max-w-[1160px] aspect-[1160/580]"
         />
