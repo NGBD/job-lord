@@ -4,7 +4,7 @@ import Image from "next/image";
 function SecondHeroService() {
   return (
     <section className="relative flex items-center">
-      <div className="w-full relative h-full aspect-[1259/350] md:max-h-[500px] text-white flex items-center justify-center">
+      <div className="w-full relative h-full aspect-[1259/350] text-white flex items-center justify-center">
         <Image
           src="/images/service-2.webp"
           alt="Warehouse Background"
