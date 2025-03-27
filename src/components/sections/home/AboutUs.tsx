@@ -51,17 +51,19 @@ function AboutUs() {
       <FullFillment />
       <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex justify-center md:px-[100px] px-5">
         <Image
-          src="/images/committed-image.webp"
+          src="/images/commited-image.jpg"
           alt="Warehouse Background"
           className="object-cover w-full max-w-[1160px] aspect-[1160/580]"
           width={1160}
           height={580}
+          priority
+          quality={100}
         />
       </div>
       <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex flex-col justify-center">
         <div className="flex flex-col md:flex-row gap-5 w-full items-center justify-center max-w-[1320px]">
           <Image
-            src="/images/su-menh-image.webp"
+            src="/images/su-menh-images.jpg"
             alt="su-menh-image"
             className="object-cover md:w-[400px] w-[300px] aspect-[400/200]"
             width={400}
@@ -70,7 +72,7 @@ function AboutUs() {
             quality={100}
           />
           <Image
-            src="/images/su-menh-image.webp"
+            src="/images/su-menh-images.jpg"
             alt="su-menh-image"
             className="object-cover md:w-[400px] w-[300px] aspect-[400/200]"
             width={400}

@@ -44,11 +44,13 @@ function Culture() {
       </div>
       <div className="max-w-[1320px] mx-auto pt-10 md:pt-20 flex justify-center p-5 md:p-[40px]">
         <Image
-          src="/images/committed-image.webp"
+          src="/images/commited-image.jpg"
           alt="Warehouse Background"
           className="object-cover w-full max-w-[1160px] aspect-[1160/580]"
           width={1160}
           height={580}
+          priority
+          quality={100}
         />
       </div>
     </>

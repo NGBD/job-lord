@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="relative flex items-center">
       <Image
-        src="/images/hero-banner.webp"
+        src="/images/hero-banner.jpg"
         alt="Warehouse Background"
         className="object-cover w-full h-full"
         width={1920}
