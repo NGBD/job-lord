@@ -15,7 +15,7 @@ function SecondHeroService() {
           quality={100}
         />
         <div className="absolute inset-0 bg-black/70"></div>
-        <div className="text-[40px] lg:text-[60px] font-bold text-[#29ea8d] text-center uppercase z-10 md:py-0 py-10 max-w-[80%]">
+        <div className="!text-[40px] !lg:text-[60px] font-bold text-[#29ea8d] text-center uppercase z-10 md:py-0 py-10 max-w-[80%]">
           Quy trình xử lý Đơn Hàng và Vận chuyển tại Infinity Fulfillment Global
         </div>
       </div>
