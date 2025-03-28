@@ -125,22 +125,20 @@ function Social() {
       <div className="w-[340px]">
         <blockquote
           className="tiktok-embed"
-          cite="https://www.tiktok.com/@ht.van.chuyen"
-          data-unique-id="ht.van.chuyen"
+          cite="https://www.tiktok.com/@ifg_hn"
+          data-unique-id="ifg_hn"
           data-embed-type="creator"
-          style={{ maxWidth: "500px", minWidth: "288px" }}
+          style={{ maxWidth: "780px", minWidth: "288px" }}
         >
-          {" "}
           <section>
-            {" "}
             <a
               target="_blank"
-              href="https://www.tiktok.com/@ht.van.chuyen?refer=creator_embed"
+              href="https://www.tiktok.com/@ifg_hn?refer=creator_embed"
             >
-              @ht.van.chuyen
-            </a>{" "}
-          </section>{" "}
-        </blockquote>{" "}
+              @ifg_hn
+            </a>
+          </section>
+        </blockquote>
         <script async src="https://www.tiktok.com/embed.js"></script>
       </div>
     </div>

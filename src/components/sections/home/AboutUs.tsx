@@ -41,23 +41,15 @@ function AboutUs() {
           quality={100}
         />
       </div>
-      <div className="max-w-[1320px] mx-auto md:pt-20 pt-10  flex justify-center md:px-[100px] px-5">
-        <video
-          src="https://youtube.com/shorts/H5JTiGPd_Os"
-          controls
-          className="object-cover w-full max-w-[1160px] aspect-[1160/580]"
-        />
-      </div>
+      <div className="max-w-[1320px] mx-auto md:pt-20 pt-10  flex justify-center md:px-[100px] px-5"></div>
       <FullFillment />
       <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex justify-center md:px-[100px] px-5">
-        <Image
-          src="/images/commited-image.jpg"
-          alt="Warehouse Background"
+        <iframe
+          src="https://drive.google.com/file/d/1XLB59OK2Nc0kT6IEDgKTHe09xZ3FWjf_/preview"
           className="object-cover w-full max-w-[1160px] aspect-[1160/580]"
-          width={1160}
-          height={580}
-          priority
-          quality={100}
+          allow="autoplay"
+          allowFullScreen
+          frameBorder="0"
         />
       </div>
       <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex flex-col justify-center">

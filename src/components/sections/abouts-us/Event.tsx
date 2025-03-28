@@ -18,7 +18,7 @@ function Event() {
           title=" 2021 Ban giám đốc và công sự sang Brazil mở kho vận hành cho khách hàng tại Sao Paolo Brazil sau đó hỗ trợ khách hàng mở cửa hàng tại sàn TMĐT Mercado libre."
         />
         <Item
-          image="/images/about-us-two.webp"
+          image="/images/myanmar.jpg"
           title="02/ 2022: Quyết định mở rộng thị trường sang Myanmar."
         />
         <Item
@@ -40,7 +40,7 @@ function Event() {
           title="10/2024: Quyết định mở rộng thị trường tại Thái Lan và Campuchia."
         />
         <Item
-          image="/images/about-us-two.webp"
+          image="/images/bangladesh.jpg"
           title="01/12/2024: Quyết định mở rộng thị trường tại Pakistan và Bangladesh"
         />
       </div>
