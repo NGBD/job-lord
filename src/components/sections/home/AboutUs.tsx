@@ -52,7 +52,7 @@ function AboutUs() {
           frameBorder="0"
         />
       </div>
-      <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex flex-col justify-center">
+      {/* <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex flex-col justify-center">
         <div className="flex flex-col md:flex-row gap-5 w-full items-center justify-center max-w-[1320px]">
           <Image
             src="/images/su-menh-images.jpg"
@@ -65,7 +65,7 @@ function AboutUs() {
           />
         </div>
         <div className="element-2 min-h-[40px] w-[1320px]"></div>
-      </div>
+      </div> */}
     </section>
   );
 }
