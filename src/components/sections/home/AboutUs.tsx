@@ -32,7 +32,7 @@ function AboutUs() {
           </div>
         </div>
         <Image
-          src="/images/about-us.jpg"
+          src="/images/new4.png"
           alt="Warehouse Background"
           className="object-cover aspect-[600/400]"
           width={600}

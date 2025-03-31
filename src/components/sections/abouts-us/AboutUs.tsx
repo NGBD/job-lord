@@ -4,7 +4,6 @@ import Event from "./Event";
 import CommitedAbount from "./CommitedAbount";
 import DeliveryAbout from "./DeliveryAbout";
 import FeedBack from "./FeedBack";
-import Image from "next/image";
 import Download from "@/components/ui/Download";
 
 function AboutUs() {
@@ -13,7 +12,7 @@ function AboutUs() {
       <HeroAboutUs />
       <Event />
       <CommitedAbount />
-      <div className="max-w-[1320px] mx-auto flex justify-center px-5 md:px-[40px]">
+      {/* <div className="max-w-[1320px] mx-auto flex justify-center px-5 md:px-[40px]">
         <Image
           src="/images/x1.jpg"
           alt="Warehouse Background"
@@ -23,7 +22,7 @@ function AboutUs() {
           priority
           quality={100}
         />
-      </div>
+      </div> */}
       <DeliveryAbout />
       <FeedBack />
       <Download />

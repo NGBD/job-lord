@@ -57,48 +57,48 @@ function PartnerCard({
 function Partner() {
   const partners = [
     {
-      name: "Mr. Trần Phú",
+      name: "Mr. Hoàng",
       role: "FOUNDER",
       company: "BABY",
       testimonial:
         "Chúng tôi đã sử dụng dịch vụ hoàn tất đơn hàng của IFG trong nhiều năm tại Thái Lan, Malaysia và Philippines và thực sự hoạt động kinh doanh của chúng tôi đã có nhiều bước ngoặt to lớn. Dịch vụ theo quy trình rõ ràng, hiệu quả và luôn đảm bảo sản phẩm đến tay người tiêu dùng nhanh nhất. Chúng tôi đánh giá cao về điều này!",
-      image: "/images/mr-phu.webp",
+      image: "/images/nam1.png",
       rating: 5,
     },
     {
-      name: "Mrs. Nguyễn Hoa",
+      name: "Mrs. Nguyễn Hương",
       role: "CEO & FOUNDER",
       company: "PH4M VIỆT NAM",
       testimonial:
         "Vì tự kinh doanh online nên mình đã phân vân khi quyết định mở rộng kinh doanh sang các thị trường nước ngoài. Nhưng khi tìm hiểu và lựa chọn dịch vụ tại IFG thì thực sự ngoài mong đợi. Đội ngũ chuyên môn cao, phản hồi nhanh chóng đã giúp mình giảm bớt gánh nặng về logistics để tập trung hơn vào phát triển kinh doanh.",
-      image: "/images/ms-hoa.webp",
+      image: "/images/nu.png",
       rating: 5,
     },
     {
-      name: "Mr. Văn Định",
+      name: "Mr. Văn Quân",
       role: "CEO",
       company: "XDP",
       testimonial:
         "Tôi đã sử dụng dịch vụ telesales của nhiều đơn vị khác nhau trước đây, nhưng đến với AFG thì thật sự nổi bật. Đội ngũ quốc tế chuyên môn cao và luôn cập nhật thông tin tức thì cho tôi về tiến độ. Tỉ lệ chốt đơn của chúng tôi đã cải thiện nhờ sự tận tình của đội ngũ.”",
-      image: "/images/mr-dinh.webp",
+      image: "/images/nam2.png",
       rating: 5,
     },
     {
-      name: "Mr. Hiệp Vũ",
+      name: "Mr. Cường",
       role: "CEO & FOUNDER",
       company: "M.O.S",
       testimonial:
         "Chúng tôi đã tăng trưởng 30% doanh thu và tối ưu lợi nhuận khi tiếp cận đến thị trường nước ngoài nhờ dữ liệu bán hàng đã được xử lý gắn thẻ cuộc gọi và phân tích từ IFG.",
-      image: "/images/mr-vu.webp",
+      image: "/images/nam5.png",
       rating: 5,
     },
     {
-      name: "Mr. Quang Huy",
+      name: "Mr. Mạnh",
       role: "FOUNDER",
       company: "Lysilk",
       testimonial:
         "Thay vì dành quá nhiều thời gian để xử lý data và có thể tập trung vào việc kinh doanh, IFG đã đưa ra giải pháp giúp chúng tôi hoàn thành đơn hàng từ lúc telesales đến kho bãi, vận chuyển và người tiêu dùng.",
-      image: "/images/mr-huy.webp",
+      image: "/images/nam4.png",
       rating: 5,
     },
   ];

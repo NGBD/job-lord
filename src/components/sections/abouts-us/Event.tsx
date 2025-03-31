@@ -14,7 +14,7 @@ function Event() {
       </div>
       <div className="flex flex-col md:grid grid-cols-3 gap-10 items-start">
         <Item
-          image="/images/about-us-one.webp"
+          image="/images/new7.png"
           title=" 2021 Ban giám đốc và công sự sang Brazil mở kho vận hành cho khách hàng tại Sao Paolo Brazil sau đó hỗ trợ khách hàng mở cửa hàng tại sàn TMĐT Mercado libre."
         />
         <Item
@@ -22,21 +22,21 @@ function Event() {
           title="02/ 2022: Quyết định mở rộng thị trường sang Myanmar."
         />
         <Item
-          image="/images/about-us-two.webp"
+          image="/images/new9.png"
           title="01/6/2023: Quyết định mở rộng thị trường Malaysia"
         />
       </div>
       <div className="flex flex-col md:grid grid-cols-2 justify-center gap-10 items-start w-[80%] mx-auto">
         <Item
-          image="/images/about-us-one.webp"
+          image="/images/new6.png"
           title="09/2024: Quyết định mở rộng thị trường Indonesia"
         />
         <Item
-          image="/images/about-us-two.webp"
+          image="/images/new8.png"
           title="03/2024: Quyết định mở rộng mảng vận chuyển ký liên kết với công ty vận chuyển hàng hóa Qicheng Yuntong, Thâm Quyến."
         />
         <Item
-          image="/images/about-us-one.webp"
+          image="/images/new10.png"
           title="10/2024: Quyết định mở rộng thị trường tại Thái Lan và Campuchia."
         />
         <Item

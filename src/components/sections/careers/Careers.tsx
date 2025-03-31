@@ -92,8 +92,8 @@ function Careers() {
               <strong>Địa chỉ làm việc:</strong>
             </p>
             <p>
-              Cơ sở 1: tầng 25, toà Viwaseen Tower, số 48 Tố Hữu, Trung Văn, Nam
-              Từ Liêm
+              Liền kề B9 -23, Khu B Gleximco, Đường Lê Trọng Tấn, Phường Dương
+              Nội, Hà Đông, Hà Nội.
             </p>
           </div>
         </div>

@@ -88,7 +88,7 @@ function Service() {
           }
         />
         <SecondContentItem
-          image="/images/service-9.jpg"
+          image="/images/new11.png"
           bigTitle="Thu Hộ COD:"
           content1={
             "Thu tiền mặt an toàn và bảo mật: Đảm bảo giao dịch tin cậy: Khi khách hàng lựa chọn phương thức thanh toán khi nhận hàng (COD), IFG phối hợp chặt chẽ với các đối tác vận chuyển uy tín để đảm bảo quy trình thu tiền mặt diễn ra an toàn và bảo mật. Nhân viên giao hàng được đào tạo chuyên nghiệp sẽ thực hiện giao dịch thu tiền mặt trực tiếp từ khách hàng tại thời điểm giao hàng. Chúng tôi áp dụng các biện pháp an ninh nghiêm ngặt để bảo vệ thông tin và tiền mặt trong suốt quá trình giao dịch, đảm bảo sự an tâm tuyệt đối cho cả khách hàng và đối tác. IFG cam kết mang đến dịch vụ thu tiền mặt tin cậy, an toàn và hiệu quả, đáp ứng mọi nhu cầu thanh toán của khách hàng."
@@ -105,7 +105,7 @@ function Service() {
       <div className="max-w-[1320px] mx-auto flex flex-col gap-10 justify-center p-[40px]">
         <SecondContentItem
           bigTitle="Đối Tác Vận Chuyển Tin Cậy:"
-          image="/images/service-7.webp"
+          image="/images/new13.png"
           content1="Hợp tác chiến lược với Qicheng Yuntong: Vận chuyển quốc tế an toàn và hiệu quả: IFG tự hào lựa chọn Qicheng Yuntong (QY) làm đối tác vận chuyển quốc tế chiến lược, dựa trên uy tín và chuyên môn vượt trội của QY trong ngành. Với mạng lưới vận chuyển rộng khắp toàn cầu và kinh nghiệm dày dặn trong việc xử lý các lô hàng quốc tế đa dạng, QY đảm bảo hàng hóa của khách hàng được vận chuyển an toàn, nhanh chóng và hiệu quả. Sự hợp tác này là cam kết của IFG trong việc mang đến dịch vụ vận chuyển quốc tế chất lượng cao, đáp ứng mọi nhu cầu của khách hàng."
           content2="Vận chuyển an toàn, đúng hẹn: Cam kết từ Qicheng Yuntong: Qicheng Yuntong (QY) cam kết mang đến dịch vụ vận chuyển quốc tế an toàn và đúng hẹn, đảm bảo sự hài lòng tuyệt đối cho khách hàng. Chúng tôi áp dụng các quy trình vận chuyển chuẩn mực, kết hợp với công nghệ theo dõi tiên tiến, để đảm bảo hàng hóa được vận chuyển một cách an toàn và đến đúng thời gian đã cam kết. QY luôn đặt sự tin cậy và hiệu quả lên hàng đầu, mang đến cho khách hàng trải nghiệm vận chuyển quốc tế vượt trội."
         />
@@ -128,7 +128,7 @@ function Service() {
           bigTitleSecond="Đào Tạo Nhân Sự:"
           content6="Khóa đào tạo: IFG cung cấp các khóa đào tạo chuyên sâu về quy trình vận hành, kỹ năng bán hàng, dịch vụ khách hàng, và quản lý kho bãi. Những khóa đào tạo này giúp nhân sự của đối tác làm việc hiệu quả và nâng cao năng suất."
           content7="Tiết kiệm chi phí: Bằng cách đào tạo nhân sự nội bộ, đối tác có thể giảm thiểu chi phí và đảm bảo rằng đội ngũ của họ có đủ kỹ năng để đáp ứng các yêu cầu công việc."
-          image="/images/service-11.jpeg"
+          image="/images/new14.png"
         />
 
         <div
@@ -201,7 +201,7 @@ function Service() {
           content2="Hoàn thiện giấy tờ pháp lý: IFG hỗ trợ đối tác hoàn thiện các thủ tục pháp lý cần thiết, bao gồm đăng ký kinh doanh, giấy phép hoạt động, và các giấy tờ liên quan khác, giúp đối tác khởi đầu kinh doanh thuận lợi."
           bigTitleSecond="Hỗ Trợ Dòng Tiền:"
           content6="Quản lý tài chính: IFG cung cấp các dịch vụ quản lý dòng tiền, bao gồm quản lý thu chi, báo cáo tài chính, và tối ưu hóa dòng tiền. Chúng tôi đảm bảo rằng dòng tiền của đối tác luôn được quản lý an toàn, giảm thiểu rủi ro tài chính và hỗ trợ trong việc hoạch định chiến lược tài chính dài hạn."
-          image="/images/service-12.webp"
+          image="/images/new15.png"
         />
       </div>
       <Download />

@@ -5,19 +5,19 @@ function Avantages() {
   return (
     <section className="max-w-[1320px] px-5 md:px-10 mx-auto flex justify-center items-center flex-col md:grid grid-cols-3 gap-10 md:items-start py-10 ">
       <Item
-        image="/images/home-image-one.webp"
+        image="/images/new1.png"
         title="Bán hàng xuyên biên giới với quy trình đơn giản"
         description="Đơn giản hóa quy trình bán hàng với một hệ thống thông minh"
       />
       <Item
-        image="/images/home-image-two.webp"
+        image="/images/new2.png"
         title="B Khai phá thị trường tiềm năng
 "
         description="Mở rộng thị trường và tiếp cận khách hàng mới, tăng tỷ lệ
 bán hàng và doanh thu."
       />{" "}
       <Item
-        image="/images/home-image-three.webp"
+        image="/images/new3.png"
         title="A-Warehouse nhà kho thông minh"
         description="Lựa chọn hệ thống kho vận trải dài khắp Đông Nam Á."
       />
