@@ -63,15 +63,6 @@ function AboutUs() {
             priority
             quality={100}
           />
-          <Image
-            src="/images/su-menh-images.jpg"
-            alt="su-menh-image"
-            className="object-cover md:w-[400px] w-[300px] aspect-[400/200]"
-            width={400}
-            height={200}
-            priority
-            quality={100}
-          />
         </div>
         <div className="element-2 min-h-[40px] w-[1320px]"></div>
       </div>
