@@ -47,7 +47,7 @@ function Item({
         className="object-cover w-[300px] h-[190px] rounded-[20px]"
       />
       <div className="font-bold text-[18px] text-center">{title}</div>
-      <div className="text-[17px] max-w-[350px] text-center">{description}</div>
+      <div className="text-[18px] max-w-[350px] text-center">{description}</div>
     </div>
   );
 }

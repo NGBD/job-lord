@@ -50,7 +50,7 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="text-sm">
+      <div className="text-sm text-justify">
         Công ty cổ phần Infinity Fulfillment Global là công ty cung cấp dịch vụ
         vận chuyển và vận hành hàng hoá xuyên quốc gia. Với hơn 8 năm kinh
         nghiệm vận hành TMĐT đa nền tảng, chúng tôi tự hào là đơn vị FFM uy tín,

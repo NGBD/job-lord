@@ -8,24 +8,24 @@ function FullFillment() {
           Dịch vụ Fulfillment có kho hàng riêng tiết <br /> kiệm một khoản chi
           phí
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-10 justify-center items-start md:h-[330px] h-fit text-[17px] mt-5">
-          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-10 justify-center items-start md:h-[330px] h-fit text-[18px] mt-5">
+          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white text-justify">
             - Chi phí kho bãi để quản lý từ kho bãi đến theo dõi hành trình đơn
             hàng , hệ thống thanh toán và bảo mật thông tin hách hàng, thuê nhân
             viên và mua vật tư phục vụ đóng gói ... đòi hỏi một khoản đầu tư chi
             phí khá lớn
           </div>
-          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white">
+          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white text-justify">
             - Việc lựa chọn nhà cung cấp dịch vụ Infinity Fulfillment sẽ là một
             giải pháp tối ưu cho ngân sách của các doanh nghiệp lớn, nhỏ và các
             nhà bán lẻ TMĐT
           </div>{" "}
-          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white">
+          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white text-justify">
             - Chúng tôi sẽ thay bạn hoàn thành các đơn hàng và bạn chỉ cần
             chuyên tâm với việc phát triển chiến lược kinh doanh, MKT và tập
             trung vào phát triển cửa hàng, tạo ra những đơn hàng mới
           </div>{" "}
-          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white">
+          <div className="bg-[#0D9251] h-full rounded-2xl p-3 w-full md:max-w-[200px] text-white text-justify">
             - Đối với dịch vụ này, bạn chỉ cần trả phí dịch vụ bạn cần sử dụng
             mà không mất thêm bất cứ chi phí đầu tư nào khác
           </div>
@@ -81,8 +81,8 @@ function FulfillmentItem({
   return (
     <div className="flex flex-col items-center justify-center w-fit h-fit">
       <div className="text-[32px] text-[#0D9251] font-bold">{number}</div>
-      <div className="text-[17px] text-[#686868] font-bold">{title}</div>
-      <div className="text-[17px] text-[#686868] font-bold">{description}</div>
+      <div className="text-[18px] text-[#686868] font-bold">{title}</div>
+      <div className="text-[18px] text-[#686868] font-bold">{description}</div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Culture() {
     <>
       <div className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
         <div className="text-[30px] uppercase font-bold">TẦM NHÌN</div>
-        <div className="text-[17px] text-center">
+        <div className="text-[18px] text-center">
           FG tiên phong kiến tạo hệ sinh thái logistics thông minh, kết nối tinh
           hoa Việt Nam với thị trường Đông Nam Á và vươn tầm toàn cầu. Trở thành
           đối tác chiến lược hàng đầu, mang đến giải pháp tối ưu, thúc đẩy sự
@@ -29,7 +29,7 @@ function Culture() {
       </div>
       <div className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
         <div className="text-[30px] uppercase font-bold">SỨ MỆNH</div>
-        <div className="text-[17px] text-center">
+        <div className="text-[18px] text-center">
           IFG không vận hành hành đơn hàng, IFG vận hành chuỗi giá trị giúp kinh
           tế Việt Nam mở rộng phát triển ở Đông Nam Á một cách mạnh mẽ, bền vững
           và hiệu quả.

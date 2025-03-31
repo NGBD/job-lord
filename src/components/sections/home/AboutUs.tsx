@@ -14,7 +14,7 @@ function AboutUs() {
           <div className="text-[22px] font-bold uppercase">
             Công ty cổ phần Infinity Fulfillment Global
           </div>
-          <div className="text-[17px] max-w-[500px]">
+          <div className="text-[18px] max-w-[500px] text-justify">
             Công ty Cổ phần Infinity Fulfillment Global là một công ty chuyên
             cung cấp dịch vụ vận chuyển và quản lý hàng hóa xuyên quốc gia. Với
             hơn 8 năm kinh nghiệm trong việc vận hành thương mại điện tử (TMĐT)

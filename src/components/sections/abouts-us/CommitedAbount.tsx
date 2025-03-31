@@ -10,7 +10,7 @@ function CommitedAbount() {
             Cam kết của chúng tôi
           </li>
         </ul>
-        <div className="text-[17px] max-w-[500px] flex flex-col gap-5">
+        <div className="text-[18px] max-w-[500px] flex flex-col gap-5">
           <div>
             Bảo mật: IFG luôn luôn đặt niềm tin của khách hàng và uy tín của
             công ty lên đầu. Cam kết bảo mật thông tin của khách hàng và đối

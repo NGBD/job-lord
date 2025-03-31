@@ -4,7 +4,7 @@ function Download() {
   return (
     <div className="w-full md:h-[200px] h-[300px] bg-[#086E3B] flex flex-col items-center justify-center">
       <div className="flex flex-col w-[90%] justify-center items-center gap-5 md:gap-0">
-        <div className="text-[17px] text-white">Contact us</div>
+        <div className="text-[18px] text-white">Contact us</div>
         <div className="text-[30px] text-white font-bold text-center">
           {" "}
           Tìm kiếm giải pháp Fulfilllment toàn diện?{" "}

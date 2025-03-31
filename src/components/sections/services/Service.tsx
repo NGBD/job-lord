@@ -285,7 +285,7 @@ function SecondContentItem({
       <div className="flex flex-col gap-2 items-start">
         {mainTitle && <TitleService title={mainTitle} />}
         {bigTitle && <h3 className="text-[18px] font-bold">{bigTitle}</h3>}
-        <ul className="text-[18px] flex flex-col gap-2 list-disc">
+        <ul className="text-[18px] flex flex-col gap-2 list-disc text-justify">
           {content1 && <li>{content1}</li>}
           {content2 && <li>{content2}</li>}
           {content3 && <li>{content3}</li>}
@@ -295,7 +295,7 @@ function SecondContentItem({
         {bigTitleSecond && (
           <h3 className="text-[18px] font-bold">{bigTitleSecond}</h3>
         )}
-        <ul className="text-[18px] flex flex-col gap-2 list-disc">
+        <ul className="text-[18px] flex flex-col gap-2 list-disc text-justify">
           {content6 && <li>{content6}</li>}
           {content7 && <li>{content7}</li>}
           {content8 && <li>{content8}</li>}
@@ -305,7 +305,7 @@ function SecondContentItem({
         {bigTitleThird && (
           <h3 className="text-[18px] font-bold">{bigTitleThird}</h3>
         )}
-        <ul className="text-[18px] flex flex-col gap-2 list-disc">
+        <ul className="text-[18px] flex flex-col gap-2 list-disc text-justify">
           {content11 && <li>{content11}</li>}
           {content12 && <li>{content12}</li>}
           {content13 && <li>{content13}</li>}
@@ -314,7 +314,7 @@ function SecondContentItem({
         {bigTitleFourth && (
           <h3 className="text-[18px] font-bold">{bigTitleFourth}</h3>
         )}
-        <ul className="text-[18px] flex flex-col gap-2 list-disc">
+        <ul className="text-[18px] flex flex-col gap-2 list-disc text-justify">
           {content15 && <li>{content15}</li>}
           {content16 && <li>{content16}</li>}
           {content17 && <li>{content17}</li>}
