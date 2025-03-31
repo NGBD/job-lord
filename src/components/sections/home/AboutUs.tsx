@@ -49,7 +49,6 @@ function AboutUs() {
           className="object-cover w-full max-w-[1160px] aspect-[1160/580]"
           allow="autoplay"
           allowFullScreen
-          frameBorder="0"
         />
       </div>
       {/* <div className="max-w-[1320px] mx-auto md:pt-20 pt-10 flex flex-col justify-center">
