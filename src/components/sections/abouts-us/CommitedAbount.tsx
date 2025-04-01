@@ -17,7 +17,7 @@ function CommitedAbount() {
             tác.
           </div>
           <div>
-            Tin cậy: AFG luôn tuân thủ theo hợp đồng, đảm bảo tuyệt đối về vấn
+            Tin cậy: IFG luôn tuân thủ theo hợp đồng, đảm bảo tuyệt đối về vấn
             đề rủi ro cho khách hàng trong toàn bộ quá trình vận hành.
           </div>
           <div>

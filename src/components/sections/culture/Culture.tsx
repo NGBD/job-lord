@@ -7,15 +7,15 @@ function Culture() {
       <div className="max-w-[1320px] px-5 md:px-10 mx-auto flex flex-col items-center justify-center gap-3 py-5">
         <div className="text-[30px] uppercase font-bold">TẦM NHÌN</div>
         <div className="text-[18px] text-center">
-          FG tiên phong kiến tạo hệ sinh thái logistics thông minh, kết nối tinh
-          hoa Việt Nam với thị trường Đông Nam Á và vươn tầm toàn cầu. Trở thành
-          đối tác chiến lược hàng đầu, mang đến giải pháp tối ưu, thúc đẩy sự
-          phát triển bền vững cho doanh nghiệp Việt Nam trên trường quốc tế. IFG
-          tối ưu hóa chuỗi cung ứng, cung cấp dịch vụ logistics toàn diện, hiệu
-          quả và đáng tin cậy. IFG đồng hành cùng doanh nghiệp Việt Nam, mở rộng
-          cơ hội kinh doanh, chinh phục thị trường Đông Nam Á và vươn ra thế
-          giới. IFG không ngừng đổi mới, ứng dụng công nghệ tiên tiến, nâng cao
-          chất lượng dịch vụ, mang đến trải nghiệm vượt trội cho khách hàng.
+          IFG tiên phong kiến tạo hệ sinh thái logistics thông minh, kết nối
+          tinh hoa Việt Nam với thị trường Đông Nam Á và vươn tầm toàn cầu. Trở
+          thành đối tác chiến lược hàng đầu, mang đến giải pháp tối ưu, thúc đẩy
+          sự phát triển bền vững cho doanh nghiệp Việt Nam trên trường quốc tế.
+          IFG tối ưu hóa chuỗi cung ứng, cung cấp dịch vụ logistics toàn diện,
+          hiệu quả và đáng tin cậy. IFG đồng hành cùng doanh nghiệp Việt Nam, mở
+          rộng cơ hội kinh doanh, chinh phục thị trường Đông Nam Á và vươn ra
+          thế giới. IFG không ngừng đổi mới, ứng dụng công nghệ tiên tiến, nâng
+          cao chất lượng dịch vụ, mang đến trải nghiệm vượt trội cho khách hàng.
         </div>
         <Image
           src="/images/new16.png"

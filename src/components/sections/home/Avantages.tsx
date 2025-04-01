@@ -11,7 +11,7 @@ function Avantages() {
       />
       <Item
         image="/images/new2.png"
-        title="B Khai phá thị trường tiềm năng
+        title="Khai phá thị trường tiềm năng
 "
         description="Mở rộng thị trường và tiếp cận khách hàng mới, tăng tỷ lệ
 bán hàng và doanh thu."

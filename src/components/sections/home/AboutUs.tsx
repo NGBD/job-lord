@@ -22,8 +22,8 @@ function AboutUs() {
             dịch vụ Fulfillment (FFM) uy tín, chuyên nghiệp, và hiệu quả nhất
             trong ngành. Hiện nay, công ty đã mở rộng sự hiện diện của mình tại
             bốn quốc gia trong khu vực Đông Nam Á, bao gồm Philippines,
-            Malaysia, Singapore, và Thái Lan, đáp ứng nhu cầu của thị trường và
-            khách hàng ở nhiều quốc gia khác nhau.
+            Malaysia, Indonesia, Thái Lan, Myanmar, Bangladesh, Pakistan... đáp
+            ứng nhu cầu của thị trường và khách hàng ở nhiều quốc gia khác nhau.
             <Link href="/about-us">
               <button className="flex justify-center items-center bg-[#0D9251] text-white px-4 h-[24px] mt-3">
                 Xem thêm

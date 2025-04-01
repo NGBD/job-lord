@@ -79,7 +79,7 @@ function Partner() {
       role: "CEO",
       company: "XDP",
       testimonial:
-        "Tôi đã sử dụng dịch vụ telesales của nhiều đơn vị khác nhau trước đây, nhưng đến với AFG thì thật sự nổi bật. Đội ngũ quốc tế chuyên môn cao và luôn cập nhật thông tin tức thì cho tôi về tiến độ. Tỉ lệ chốt đơn của chúng tôi đã cải thiện nhờ sự tận tình của đội ngũ.”",
+        "Tôi đã sử dụng dịch vụ telesales của nhiều đơn vị khác nhau trước đây, nhưng đến với IFG thì thật sự nổi bật. Đội ngũ quốc tế chuyên môn cao và luôn cập nhật thông tin tức thì cho tôi về tiến độ. Tỉ lệ chốt đơn của chúng tôi đã cải thiện nhờ sự tận tình của đội ngũ.”",
       image: "/images/nam2.png",
       rating: 5,
     },
