@@ -74,7 +74,7 @@ function Service() {
         />
         <SecondContentItem
           reverseDirection={true}
-          image="/images/service-8-new.webp"
+          image="/images/new21.jpg"
           mainTitle="2. Vận Chuyển Nội Địa và Quản Lý Dòng Tiền"
           bigTitle="Hợp Tác với Các Đơn Vị Vận Chuyển:"
           content1={

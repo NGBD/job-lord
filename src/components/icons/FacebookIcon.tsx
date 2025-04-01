@@ -1,28 +1,21 @@
 import React from "react";
 
-interface FacebookIconProps {
-  width?: number;
-  height?: number;
-  className?: string;
-}
-
-const FacebookIcon: React.FC<FacebookIconProps> = ({
-  width = 24,
-  height = 24,
-  className = "",
-}) => {
+function FacebookIcon({ ...props }) {
   return (
     <svg
-      width={width}
-      height={height}
-      className={className}
-      viewBox="0 0 24 24"
-      fill="#0D9251"
+      width={52}
+      height={84}
+      viewBox="0 0 52 84"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
-      <path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.38823 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z" />
+      <path
+        d="M42 20h8c1.102 0 2-.898 2-2V2c0-1.102-.898-2-2-2H38C25.871 0 16 9.871 16 22v10.16H2c-1.102 0-2 .898-2 2V50c0 1.102.898 2 2 2h12.609v30c0 1.102.898 2 2 2h16.699c1.102 0 2-.898 2-2V52h10.52a2 2 0 001.941-1.5l4.172-16a1.98 1.98 0 00-.351-1.73 2.004 2.004 0 00-1.578-.782h-14v-6c0-3.308 2.691-6 6-6L42 20zm-8 16h13.41l-3.129 12h-10.98c-1.102 0-2 .898-2 2v30H18.602V50c0-1.102-.898-2-2-2H3.993V36.16h14c1.102 0 2-.898 2-2V22c0-9.922 8.07-18 18-18h10v12h-6c-5.512 0-10 4.488-10 10v8c0 1.102.899 2 2 2H34z"
+        fill="#ffffff"
+      />
     </svg>
   );
-};
+}
 
 export default FacebookIcon;

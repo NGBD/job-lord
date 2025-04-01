@@ -38,30 +38,30 @@ export default function RootLayout({
         <main className="flex flex-col min-h-screen bg-white text-black">
           <Header />
           {children}
-          <div className=" fixed md:bottom-[200px] md:right-[100px] bottom-[100px] right-[40px] z-[999999]">
+          <div className="fixed md:bottom-[150px] md:right-[80px] bottom-[40px] right-[20px] z-[999999]">
             <div className="flex flex-col gap-5">
               <Link
-                className="cursor-pointer bg-[#0D9251] rounded-full p-1 flex items-center justify-center border border-white"
+                className="cursor-pointer bg-[#0D9251] rounded-full p-2 flex items-center justify-center border border-white"
                 href="tel:+84977587736"
               >
-                <PhoneIcon className="rotate-270" />
+                <PhoneIcon className="md:w-[40px] md:h-[40px] w-[30px] h-[30px]" />
               </Link>
               <Link
-                className="cursor-pointer flex items-center justify-center border border-white rounded-full bg-white"
+                className="cursor-pointer flex items-center justify-center border border-white rounded-full p-2 bg-[#0D9251]"
                 href={
                   "https://www.facebook.com/share/1945z3YzkM/?mibextid=wwXIfr"
                 }
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FacebookIcon width={32} height={32} />
+                <FacebookIcon className="md:w-[40px] md:h-[40px] w-[30px] h-[30px]" />
               </Link>
               <Link
                 href="https://zalo.me/84977587736"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ZaloIcon width={32} height={32} />
+                <ZaloIcon className="md:w-[58px] md:h-[58px] w-[48px] h-[48px]" />
               </Link>
             </div>
           </div>
