@@ -4,16 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import MobileMenu from "./MobileMenu";
 import { menuItems } from "@/config/menu";
-import FacebookIcon from "../icons/FacebookIcon";
-import GmailIcon from "../icons/GmailIcon";
-import PhoneIcon from "../icons/PhoneIcon";
 import SearchIcon from "../icons/SearchIcon";
-import ZaloIcon from "../icons/ZaloIcon";
 
 const Header = () => {
   return (
     <>
-      <div className="h-10 bg-[#0D9251]">
+      {/* <div className="h-10 bg-[#0D9251]">
         <div className="mx-auto px-4 h-full">
           <div className="flex md:justify-between justify-end items-center h-full text-white">
             <div className="hidden md:flex items-center gap-5">
@@ -59,7 +55,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <header className="sticky top-0 z-50 bg-white shadow-md">
         <div className="mx-auto px-4">
