@@ -55,7 +55,7 @@ function Service() {
       <SecondHeroService />
       <div className="max-w-[1320px] mx-auto flex flex-col gap-10 justify-center p-[40px]">
         <SecondContentItem
-          image="/images/service-6.jpg"
+          image="/images/new20.jpg"
           secondMainTitle="1.Xử lý Đơn Hàng"
           bigTitle="Nhận Đơn Hàng:"
           content1={
