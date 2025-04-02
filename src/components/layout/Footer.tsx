@@ -25,7 +25,7 @@ const Footer = () => {
           <Social />
         </div>
       </div>
-      <div className="w-full flex justify-center pt-4">
+      <div className="w-full flex justify-center items-center text-center pt-4">
         Copyright © Infinity Fulfillment - Chia Sẻ Kinh Nghiệm Bán Hàng Online
         Từ A ĐẾN Z
       </div>
